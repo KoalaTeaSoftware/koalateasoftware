@@ -1,15 +1,17 @@
 <?php
-$siteRoot = $_SERVER['DOCUMENT_ROOT'] . "/koalateasoftware.com/";
-require_once $siteRoot . '_framework/errorHandler.php';
-require_once $siteRoot . '_framework/listSubsections.php';
-include_once $siteRoot . "_framework/getSectionalMetaTags.php";
+$relativeSiteRoot = "/koalateasoftware.com/"; // used when telling the browser to get files
+$absoluteSiteRoot = $_SERVER['DOCUMENT_ROOT'] . $relativeSiteRoot; // used when telling the interpreter to get files
 
-// make some deaults as a double-security against failure
+require_once $absoluteSiteRoot . '_framework/errorHandler.php';
+require_once $absoluteSiteRoot . '_framework/listSubsections.php';
+include_once $absoluteSiteRoot . "_framework/getSectionalMetaTags.php";
+
+// make some defaults as a double-security against failure
 $chapter = "home";
 $section = "";
 $subSection = "";
 $titleTag = "Koala Tea Software";
-$pageRoot = $siteRoot . $chapter . '/';
+$pageRoot = $absoluteSiteRoot . $chapter . '/';
 
 /*
  * The following chapter / section handling depends on the rules in the .htaccess file, i.e
@@ -25,13 +27,13 @@ $requestedSection = isset($pathElements[2]) ? strtolower($pathElements[2]) : "";
 $requestedSubSection = isset($pathElements[3]) ? strtolower($pathElements[3]) : "";
 
 // find this now. It will be wanted whatever the chapter request is, so that the menu can be created
-$availableChapters = listSubsections($siteRoot, "[!_]*"); // NB special pattern because the framework is at the chapter level
+$availableChapters = listSubsections($absoluteSiteRoot, "[!_]*"); // NB special pattern because the framework is at the chapter level
 
 if (strlen($requestedChapter == "")) {
 //    error_log("Special case, no chapter means home");
     $chapter = "home";
     $titleTag = "Home";
-    $pageRoot = $siteRoot . $chapter . '/';
+    $pageRoot = $absoluteSiteRoot . $chapter . '/';
 } else {
     // ($requestedSection != "") is, therefore, true
 //    error_log("The requested chapter is:" . $requestedChapter . ". The possible chapters are: " . print_r($availableChapters, true));
@@ -39,11 +41,11 @@ if (strlen($requestedChapter == "")) {
         error_log("Requested chapter is not known");
         $chapter = "home";
         $titleTag = "Home";
-        $pageRoot = $siteRoot . $chapter . '/';
+        $pageRoot = $absoluteSiteRoot . $chapter . '/';
     } else {
         $chapter = $requestedChapter;
         $titleTag = ucwords(str_replace('-', ' ', $chapter));
-        $pageRoot = $siteRoot . $chapter . '/';
+        $pageRoot = $absoluteSiteRoot . $chapter . '/';
         if( $requestedSection != ""){
             $availableSections = listSubsections($pageRoot);
             if (!in_array($requestedSection, $availableSections)) {
@@ -71,22 +73,25 @@ if (strlen($requestedChapter == "")) {
     }
 }
 
-//error_log("Getting page contents from " . $pageRoot);
 ?>
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <title><?= $titleTag ?></title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <?php
-    require_once $siteRoot . '_framework/bodyParts/head-meta.php';
+    require_once $absoluteSiteRoot . '_framework/bodyParts/head-meta.php';
     echo getExtraMetaTags($pageRoot);
-    require_once $siteRoot . '_framework/bodyParts/head-bootstrap.php';
-    require_once $siteRoot . '_framework/bodyParts/head-common.php';
+    require_once $absoluteSiteRoot . '_framework/bodyParts/head-bootstrap.php';
+    require_once $absoluteSiteRoot . '_framework/bodyParts/head-common.php';
     ?>
 </head>
 <body id="<?= $chapter ?>" class="container-fluid">
 <section id="furniture">
-    <?php require_once $siteRoot . '_framework/bodyParts/body-section-furniture.php'; ?>
+    <?php require_once $absoluteSiteRoot . '_framework/bodyParts/body-section-furniture.php'; ?>
 </section>
 <section id="contents" class="container-fluid">
     <?php
@@ -94,6 +99,6 @@ if (strlen($requestedChapter == "")) {
     ?>
 </section>
 <section id="footer">
-    <?php require_once $siteRoot . '_framework/bodyParts/body-section-pageFooter.php'; ?>
+    <?php require_once $absoluteSiteRoot . '_framework/bodyParts/body-section-pageFooter.php'; ?>
 </section>
 </body>

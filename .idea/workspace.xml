@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/getSectionalMetaTags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/listSubsections.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/contents.php" afterDir="false" />
+    <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="Clean chapter / section handling&#10;Chrome ignores the caching directives">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-furniture.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-furniture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-pageFooter.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-pageFooter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/head-common.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/head-common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/test-plan.htm" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/test-plan.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -35,7 +54,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/cucumber-html-reports" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,34 +96,54 @@
       <workItem from="1598943299775" duration="630000" />
       <workItem from="1598944008210" duration="5002000" />
       <workItem from="1599028838451" duration="198000" />
-      <workItem from="1599453095848" duration="15160000" />
+      <workItem from="1599453095848" duration="24720000" />
     </task>
+    <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
+      <created>1599473241155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599473241155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Clean chapter / section handling&#10;Chrome ignores the caching directives" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean chapter / section handling&#10;Chrome ignores the caching directives" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599472345429">
+    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599486157105">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1599472345429" />
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog" timestamp="1599472869156">
+    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1599486157105" />
+    <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1599473276790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1599472869156" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1599472550801">
+    <state x="421" y="12" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599473276790" />
+    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog" timestamp="1599487989098">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599472550801" />
+    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1599487989098" />
+    <state x="234" y="215" key="FileChooserDialogImpl" timestamp="1599476726606">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="234" y="215" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599476726606" />
     <state x="634" y="353" key="NewPhpFileDialog" timestamp="1599471405528">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="634" y="353" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1599471405528" />
-    <state x="301" y="74" key="SettingsEditor" timestamp="1599472552736">
+    <state x="301" y="74" key="SettingsEditor" timestamp="1599476729067">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599472552736" />
+    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599476729067" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1599473280889">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1599473280889" />
     <state x="506" y="163" width="937" height="534" key="find.popup" timestamp="1599461597570">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -112,5 +152,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="1012" y="158" key="ftp.server.browser/0.0.1600.860@0.0.1600.860" timestamp="1599459996906" />
+    <state x="643" y="202" key="refactoring.ChangeSignatureDialog" timestamp="1599484024484">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="643" y="202" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1599484024484" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1599473820658">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1599473820658" />
   </component>
 </project>

@@ -1,3 +1,10 @@
+# try amd make Chrome actually believe that I want to stop caching
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+</IfModule>
+
 RewriteEngine on
 
 # Swap any non http to go over to https
@@ -18,12 +25,14 @@ RewriteCond %{REQUEST_URI} !\.(png|gif|jpg|jpeg|js|css|mp3|wav|txt|map|ico|pdf)$
 # make everything else go to the index file and as https, too
 RewriteRule ^(.*)$ index.php?%{QUERY_STRING}  [NC]
 
-# initial quick fix for caching different resources
-## One year for image files - once in place, they are very unlikely to change
-<filesMatch ".(jpg|jpeg|png|gif|ico)$">
-Header set Cache-Control "max-age=31536000, public"
-</filesMatch>
-## One month for css and js - these are pretty stable, now
-<filesMatch ".(css|js)$">
-Header set Cache-Control "max-age=2628000, public"
-</filesMatch>
+
+
+## initial quick fix for caching different resources
+### One year for image files - once in place, they are very unlikely to change
+#<filesMatch ".(jpg|jpeg|png|gif|ico)$">
+#Header set Cache-Control "max-age=31536000, public"
+#</filesMatch>
+### One month for css and js - these are pretty stable, now
+#<filesMatch ".(css|js)$">
+#Header set Cache-Control "max-age=2628000, public"
+#</filesMatch>
