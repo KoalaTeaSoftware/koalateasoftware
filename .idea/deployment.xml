@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="live" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="live">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/earthoracles-live" />
+            <excludedPath path="/rosegoldthorp.com" />
+            <excludedPath path="/rosegoldthorp.com.stage" />
+            <excludedPath path="/the-greenlands" />
+            <excludedPath path="/info" />
+            <excludedPath path="/old" />
+            <excludedPath local="true" path="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/cucumber-html-reports" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

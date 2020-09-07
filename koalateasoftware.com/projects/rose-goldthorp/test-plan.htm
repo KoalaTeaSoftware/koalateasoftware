@@ -1,0 +1,67 @@
+<title>Test Plan</title>
+<h1>Overview</h1>
+<p>The web site <a href="#">RoseGoldthorp.com</a> is a moderately simple site that acts, as a portfolio for Rose
+    Goldthorp. In itself, it does not support any e-commerce (as yet). PHP forms its backbone, and Bootstrap is used
+    to provide responsive capabilities. A little JavaScript provides for client-side interactivity.
+</p>
+<h1>Risks</h1>
+<ul>
+    <li>The 'friendly URL' feature is handled by a combination of .htaccess, PHP, and the directory structure. If
+        this fails, it is likely to result in partial-paint of pages, or even 404s.
+    </li>
+    <li>Some pages are built from data (by PHP). The builder code, or the data could contain errors, in which case,
+        partial-paint of pages is possible.
+    </li>
+    <li>There are some JavaScript-based features. Failure of these may result in minor features not functioning,
+        but not in any major embarrassment.
+    </li>
+    <li>Malevolent use of the contact facility (client-side and server-side) - spam, scripts</li>
+    <li>The MailChimp database is written to:
+        <ul>
+            <li>This could result in unwanted entries in the mailing list</li>
+            <li>This requires that a security token be 'known' by the software. It is important that this token remain
+                unexposed.
+            </li>
+        </ul>
+    </li>
+</ul>
+<h1>Scope</h1>
+<ul>
+    <li>In
+        <ul>
+            <li>Functional Test</li>
+            <li>Standards Compliance (to do)</li>
+            <li>Accessibility Compliance - where it can be automated (to do)</li>
+            <li>Manual 'look and feel' (i.e. an experimental approach, concentrating on the user's experience of the
+                site in different device sizes and the like)
+            </li>
+        </ul>
+    </li>
+    <li>Out
+        <ul>
+            <li>Performance - Unless ad. hoc. use / testing shows any problems - None of the site is particularly
+                demanding in terms of processing, or bandwidth.
+            </li>
+            <li>Security - Not <em>tested</em>>, but best practice is to be followed when mitigating the risks noted
+                above.
+            </li>
+            <li>UAT - Performed by the client</li>
+            <li>Cross-browser appearance</li>
+        </ul>
+    </li>
+</ul>
+<h1>Tools</h1>
+<p>Automated testing is provided using Cucumber / Java in a Win10 device. Features, and scenarios are added /
+    updated as required. Each upgrade to the suite triggers a re-run of the test suite. Execution of the suite is
+    manually triggered on the developer's machine, giving direct Quality Control feedback to the deployment
+    process.
+</p>
+<p>Once a release has (sufficiently) passed the automated test, it is manually tested.</p>
+<h1>Environments</h1>
+<p>Development and testing happens on a Win10 device.</p>
+<p>Code is deployed to a staging environment where the automated, and manual testing occurs (including UAT). This
+    staging environment connects to the live Mailchimp facility (ToDo: use a sandbox for the MailChimp integration
+    tests).
+</p>
+<p>Only once it has proved acceptable, is it deployed the live site.</p>
+
