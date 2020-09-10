@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="10" />
+    <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="Clean chapter / section handling&#10;Chrome ignores the caching directives">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+    <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/interpretRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-furniture.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-furniture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-pageFooter.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-pageFooter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/head-common.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/head-common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/test-plan.htm" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/test-plan.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/listSubsections.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/listSubsections.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,6 +56,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web Site Work\koalateasoftware" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com" />
@@ -96,7 +88,10 @@
       <workItem from="1598943299775" duration="630000" />
       <workItem from="1598944008210" duration="5002000" />
       <workItem from="1599028838451" duration="198000" />
-      <workItem from="1599453095848" duration="24720000" />
+      <workItem from="1599453095848" duration="24853000" />
+      <workItem from="1599490101791" duration="616000" />
+      <workItem from="1599575967202" duration="4114000" />
+      <workItem from="1599753507917" duration="3351000" />
     </task>
     <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
       <created>1599473241155</created>
@@ -105,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599473241155</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Working chapter / section framework">
+      <created>1599488095318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599488095318</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,45 +115,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clean chapter / section handling&#10;Chrome ignores the caching directives" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean chapter / section handling&#10;Chrome ignores the caching directives" />
+    <MESSAGE value="Working chapter / section framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working chapter / section framework" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599486157105">
+    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599756446438">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1599486157105" />
-    <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1599473276790">
+    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1599756446438" />
+    <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1599488093982">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="421" y="12" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599473276790" />
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog" timestamp="1599487989098">
+    <state x="421" y="12" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599488093982" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1599578032358">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1599487989098" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599578032358" />
+    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog" timestamp="1599756535654">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1599756535654" />
     <state x="234" y="215" key="FileChooserDialogImpl" timestamp="1599476726606">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="234" y="215" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599476726606" />
-    <state x="634" y="353" key="NewPhpFileDialog" timestamp="1599471405528">
+    <state x="634" y="353" key="NewPhpFileDialog" timestamp="1599576076226">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="634" y="353" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1599471405528" />
-    <state x="301" y="74" key="SettingsEditor" timestamp="1599476729067">
+    <state x="634" y="353" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1599576076226" />
+    <state x="301" y="74" key="SettingsEditor" timestamp="1599756535248">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599476729067" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1599473280889">
+    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599756535248" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1599488097244">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1599473280889" />
-    <state x="506" y="163" width="937" height="534" key="find.popup" timestamp="1599461597570">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1599488097244" />
+    <state x="506" y="163" width="937" height="534" key="find.popup" timestamp="1599754304538">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="506" y="163" width="937" height="534" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1599461597570" />
-    <state x="1012" y="158" key="ftp.server.browser" timestamp="1599459996906">
+    <state x="506" y="163" width="937" height="534" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1599754304538" />
+    <state x="1027" y="161" width="507" height="540" key="ftp.server.browser" timestamp="1599756533725">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="1012" y="158" key="ftp.server.browser/0.0.1600.860@0.0.1600.860" timestamp="1599459996906" />
+    <state x="1027" y="161" width="507" height="540" key="ftp.server.browser/0.0.1600.860@0.0.1600.860" timestamp="1599756533725" />
     <state x="643" y="202" key="refactoring.ChangeSignatureDialog" timestamp="1599484024484">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

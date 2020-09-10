@@ -9,11 +9,11 @@
 function listSubsections($root, $pattern = "*")
 {
     $actualPattern = $root . $pattern . "/contents.php"; // ie only those places that have contents
-    $availableChapters = glob($actualPattern);
+    $matchingFiles = glob($actualPattern);
     $chapterList = [];
-    foreach ($availableChapters as $chapter) {
-        $pathElements = explode('/', $chapter);
-        end($pathElements);
+    foreach ($matchingFiles as $filename) {
+        $pathElements = explode('/', $filename);
+        end($pathElements);  // this will make the file name the 'current' list element
         prev($pathElements); // ie, the name of the directory.
         $chapterList[] = current($pathElements);
     }

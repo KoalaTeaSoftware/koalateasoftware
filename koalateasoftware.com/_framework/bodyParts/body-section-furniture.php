@@ -7,10 +7,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <?=
-                /** So, this will only work within the context set up by the calling file */
+                <?php
                 /** @noinspection PhpUndefinedVariableInspection */
-                drawNavItems($availableChapters, $chapter)
+                echo drawNavItems(
+                    listSubsections($absoluteSiteRoot, "[!_]*"),
+                    $chapter);
                 ?>
             </div>
         </div>
@@ -33,20 +34,20 @@ function drawNavItems($list, $toHighlight = "", $root = "")
 {
     $html = "";
     foreach ($list as $item) {
-        if ($item == "home") continue;
-        $name = ucwords(str_replace('_', ' ', $item));
-        $id = $item . "Nav"; // this is what the menu highlighting code added in the footer depends upon
+        if ($item != "home") {
+            $name = ucwords(str_replace('_', ' ', $item));
+            $id = $item . "Nav"; // this is what the menu highlighting code added in the footer depends upon
+            $class = 'nav-item nav-link';
+            if ($item == $toHighlight) {
+                $class .= ' active';
+            }
 
-        $class = 'nav-item nav-link';
-        if ($item == $toHighlight) {
-            $class .= ' active';
+            $html .= '<a ';
+            $html .= ' class="' . $class . '"';
+            $html .= ' id="' . $id . '" ';
+            $html .= ' href="' . $root . $item . '" ';
+            $html .= '>' . $name . ' </a>';
         }
-
-        $html .= '<a ';
-        $html .= ' class="' . $class . '"';
-        $html .= ' id="' . $id . '" ';
-        $html .= ' href="' . $root . $item . '" ';
-        $html .= '>' . $name . ' </a>';
     }
     return $html;
 }

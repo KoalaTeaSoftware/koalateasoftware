@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="live" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="live" remoteFilesAllowedToDisappearOnAutoupload="false" compareModeInSync="TIMESTAMP">
     <serverData>
       <paths name="live">
         <serverdata>
@@ -11,12 +11,13 @@
             <excludedPath path="/earthoracles-live" />
             <excludedPath path="/rosegoldthorp.com" />
             <excludedPath path="/rosegoldthorp.com.stage" />
-            <excludedPath path="/the-greenlands" />
             <excludedPath path="/info" />
             <excludedPath path="/old" />
             <excludedPath local="true" path="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/cucumber-html-reports" />
             <excludedPath local="true" path="$PROJECT_DIR$/.gitignore" />
             <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+            <excludedPath path="/the-greenlands.com" />
+            <excludedPath path="/error_log" />
           </excludedPaths>
         </serverdata>
       </paths>
