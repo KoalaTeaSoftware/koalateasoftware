@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/interpretRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-furniture.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-furniture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/listSubsections.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/listSubsections.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/contents.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,7 @@
       <workItem from="1599453095848" duration="24853000" />
       <workItem from="1599490101791" duration="616000" />
       <workItem from="1599575967202" duration="4114000" />
-      <workItem from="1599753507917" duration="3351000" />
+      <workItem from="1599753507917" duration="5699000" />
     </task>
     <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
       <created>1599473241155</created>
@@ -107,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599488095318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cleanly shows possible chapters in navbar and verifies chapter requests">
+      <created>1599757063851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599757063851</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,41 +120,42 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clean chapter / section handling&#10;Chrome ignores the caching directives" />
     <MESSAGE value="Working chapter / section framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working chapter / section framework" />
+    <MESSAGE value="cleanly shows possible chapters in navbar and verifies chapter requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanly shows possible chapters in navbar and verifies chapter requests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599756446438">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1599756446438" />
-    <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1599488093982">
+    <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1599757062613">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="421" y="12" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599488093982" />
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1599578032358">
+    <state x="421" y="12" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599757062613" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1599757389509">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599578032358" />
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog" timestamp="1599756535654">
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599757389509" />
+    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog" timestamp="1599759921895">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1599756535654" />
+    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1599759921895" />
     <state x="234" y="215" key="FileChooserDialogImpl" timestamp="1599476726606">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="234" y="215" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599476726606" />
-    <state x="634" y="353" key="NewPhpFileDialog" timestamp="1599576076226">
+    <state x="634" y="353" key="NewPhpFileDialog" timestamp="1599758588027">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="634" y="353" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1599576076226" />
+    <state x="634" y="353" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1599758588027" />
     <state x="301" y="74" key="SettingsEditor" timestamp="1599756535248">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599756535248" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1599488097244">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1599757066476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1599488097244" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1599757066476" />
     <state x="506" y="163" width="937" height="534" key="find.popup" timestamp="1599754304538">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
