@@ -1,5 +1,5 @@
 <h1>Projects</h1>
-<ul class="nav nav-tabs" id="rolesNav" role="tablist">
+<ul class="nav nav-tabs nav-fill" id="rolesNav" role="tablist">
     <li class="nav-item">
         <a class="nav-link active" id="p1-tab" data-toggle="tab" href="#p1" role="tab"
            aria-controls="home"

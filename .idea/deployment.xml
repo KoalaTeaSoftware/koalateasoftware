@@ -18,6 +18,7 @@
             <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
             <excludedPath path="/the-greenlands.com" />
             <excludedPath path="/error_log" />
+            <excludedPath local="true" path="$PROJECT_DIR$/undeployedAssets" />
           </excludedPaths>
         </serverdata>
       </paths>

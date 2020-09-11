@@ -1,0 +1,33 @@
+/* It may seem redundant to ad .nav to all the navs, but it seems harmless and allows for a simple rule */
+.nav .active {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  background-color: black;
+  color: white !important; // has to override some other rule
+  padding: 1rem;
+}
+
+/* for tabbed navs */
+.nav-tabs {
+  border-bottom: 1px solid;
+
+  .nav-link {
+    background-color: lightgray;
+    border-color: lightgray;
+    font-weight: lighter;
+  }
+
+  .nav-link.active {
+    font-weight: bolder;
+    border-color: lightgray lightgray #fff;
+  }
+}
+
+.tab-content{
+  border-style: none solid;
+  border-width: thin;
+  border-color: lightgrey;
+}
+

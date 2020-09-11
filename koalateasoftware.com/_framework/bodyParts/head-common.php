@@ -1,5 +1,5 @@
 <!--suppress HtmlUnknownTarget -->
-<link rel="stylesheet" type="text/css" href="<?= $relativeSiteRoot ?>/index.css" >
+<link rel="stylesheet" type="text/css" href="/index.css" >
 
 <!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
 <!--<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png" -->

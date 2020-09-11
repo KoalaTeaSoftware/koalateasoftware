@@ -1,5 +1,5 @@
-<div class="row">
-    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <nav id="mainNav" class="nav navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/">Koala Tea Software</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@
             </div>
         </div>
     </nav>
-</div>
+
 <?php
 /**
  * Simply produces a list of nav items based on the list given to it.
