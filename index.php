@@ -18,9 +18,12 @@ interpretRequest(
     $chapter,
     $section,
     $subSection,
-    $pageRoot,
-    $titleTag
+    $pageRoot
 );
+$pageRoot = $absoluteSiteRoot . $chapter . '/';
+$titleTag = ucwords(str_replace('-', ' ', $chapter)); // until a chapter or section changes it
+$chaptersToIgnore[] = "home";
+$availableChapters = listSubordinates($absoluteSiteRoot . "[!_]*/contents.php", $chaptersToIgnore);
 ?>
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">

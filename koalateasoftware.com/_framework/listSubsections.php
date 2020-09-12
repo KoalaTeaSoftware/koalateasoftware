@@ -2,20 +2,53 @@
 /**
  * A subsection is 'available' if it is a directory that contains a file called contents.php
  *
- * @param string $root - must end in a directory separator - where to look for subsections
- * @param string $pattern - if the pattern has to be anything special give. Defaults to *
+ * @param string $pattern - Give it the entire path, and some good file names within the requred directores
+ * @param $ignore -  an array of strings - element not to be added to the list
  * @return array - list of eligible subsections
  */
-function listSubsections($root, $pattern = "*")
+function listSubordinates($pattern, $ignore)
 {
-    $actualPattern = $root . $pattern . "/contents.php"; // ie only those places that have contents
-    $matchingFiles = glob($actualPattern);
+    $matchingFiles = glob($pattern);
+    error_log("Listing chapters for pattern :" . $pattern . ". glob returned " . print_r($matchingFiles, true));
     $chapterList = [];
     foreach ($matchingFiles as $filename) {
         $pathElements = explode('/', $filename);
         end($pathElements);  // this will make the file name the 'current' list element
         prev($pathElements); // ie, the name of the directory.
-        $chapterList[] = current($pathElements);
+        $candidate = current($pathElements);
+        if (!in_array($candidate, $ignore)) {
+            error_log("Adding " . $candidate);
+            $chapterList[] = $candidate;
+        } else {
+            error_log($candidate . " is one of the candidates to ignore");
+        }
     }
     return $chapterList;
 }
+
+/**
+ * Differs from listing chapters only in that we will not return the last-but-one path element
+ *
+ * @param $pattern
+ * @param $ignore
+ * @return array
+function listSections($pattern, $ignore)
+{
+    $matchingFiles = glob($pattern);
+    error_log("Listing sections for pattern :" . $pattern . ". glob returned " . print_r($matchingFiles, true));
+    $chapterList = [];
+    foreach ($matchingFiles as $filename) {
+        $pathElements = explode('/', $filename);
+        end($pathElements);  // this will make the file name the 'current' list element
+        $candidate = current($pathElements);
+        if (!in_array($candidate, $ignore)) {
+            error_log("Adding " . $candidate);
+            $chapterList[] = $candidate;
+        } else {
+            error_log($candidate . " is one of the candidates to ignore");
+        }
+    }
+    return $chapterList;
+}
+ */
+

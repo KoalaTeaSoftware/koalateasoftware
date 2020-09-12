@@ -1,21 +1,18 @@
-
-    <nav id="mainNav" class="nav navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">Koala Tea Software</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <?php
-                /** @noinspection PhpUndefinedVariableInspection */
-                echo drawNavItems(
-                    listSubsections($absoluteSiteRoot, "[!_]*"),
-                    $chapter);
-                ?>
-            </div>
+<nav id="mainNav" class="nav navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Koala Tea Software</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <?php
+            /** @noinspection PhpUndefinedVariableInspection */
+            echo drawNavItems($availableChapters, $chapter);
+            ?>
         </div>
-    </nav>
+    </div>
+</nav>
 
 <?php
 /**
@@ -32,10 +29,11 @@
  */
 function drawNavItems($list, $toHighlight = "", $root = "")
 {
+    error_log("Drawing menu based on the array " . print_r($list, true));
+    error_log("Highlighting " . $toHighlight);
     $html = "";
     foreach ($list as $item) {
-        if ($item != "home") {
-            $name = ucwords(str_replace('_', ' ', $item));
+            $name = ucwords(str_replace('-', ' ', $item));
             $id = $item . "Nav"; // this is what the menu highlighting code added in the footer depends upon
             $class = 'nav-item nav-link';
             if ($item == $toHighlight) {
@@ -47,7 +45,6 @@ function drawNavItems($list, $toHighlight = "", $root = "")
             $html .= ' id="' . $id . '" ';
             $html .= ' href="' . $root . $item . '" ';
             $html .= '>' . $name . ' </a>';
-        }
     }
     return $html;
 }

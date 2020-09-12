@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col">
         <h2>Test Plan</h2>
-        <?php include "test-plan.htm"; ?></div>
+        <?php include "testPlan.htm"; ?></div>
     <div class="col">
         <h2>Test Results</h2>
     </div>

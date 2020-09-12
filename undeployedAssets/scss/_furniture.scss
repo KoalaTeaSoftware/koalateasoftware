@@ -1,6 +1,12 @@
-/* It may seem redundant to ad .nav to all the navs, but it seems harmless and allows for a simple rule */
-.nav .active {
-  font-weight: bold;
+/* It may seem redundant to add .nav to all the navs, but it seems harmless and allows for a simple rule */
+.nav {
+  border-color: darkgray;
+  border-style: solid;
+  border-width: thin;
+
+  .active {
+    font-weight: bold;
+  }
 }
 
 .navbar-brand {
@@ -25,9 +31,8 @@
   }
 }
 
-.tab-content{
+.tab-content {
   border-style: none solid;
   border-width: thin;
   border-color: lightgrey;
 }
-

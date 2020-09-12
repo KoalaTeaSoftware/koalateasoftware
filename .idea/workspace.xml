@@ -1,18 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
+    <option name="SCOPE_TYPE" value="10" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/undeployedAssets/scss/_furniture.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/undeployedAssets/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/home/meta.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/css/cucumber.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-1194493772.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-1384711262.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-1514876909.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-1576249954.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-2035082806.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-2065239281.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-308012202.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-443224673.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-818776999.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-925136437.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1203132829.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1297665304.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1393566484.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_165316976.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1893437305.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1937757608.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1960643624.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1974331360.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_2057051767.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_242671834.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_324566159.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_598063629.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_673217368.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_721166699.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_760212226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_786075972.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_821473233.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/js/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_1074345064.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_1728123616.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_1_1124345819.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_1_1489119203.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_1_1684911237.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_1_1737958768.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_1_2009534629.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_1_2442476086.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_1_280079145.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_1_3701140081.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_1_910359474.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_2009534629.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_2122847341.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_2442476086.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_2665175478.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_280079145.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_2886916182.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_2_1684911237.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_2_1728123616.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_2_1737958768.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_2_2744294546.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_2_3701140081.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_343423942.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_3701140081.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_3_2665175478.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_4_910359474.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_5_1684911237.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_682976066.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-feature_910359474.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-tag_1910945319.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-tag_197329173.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-tag_2149499106.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-tag_2149507997.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-tag_2757211148.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-tag_3001694653.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-tag_3043924546.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-tag_3110461058.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-tag_3744142299.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports/report-tag_4072360780.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/testPlan.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-furniture.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/body-section-furniture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/head-common.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/head-common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/interpretRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/interpretRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/listSubsections.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/listSubsections.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/test-plan.htm" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/testPlan.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/undeployedAssets/scss/_furniture.scss" beforeDir="false" afterPath="$PROJECT_DIR$/undeployedAssets/scss/_furniture.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +144,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/undeployedAssets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,15 +157,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\projects\the-greenlands" />
+      <recent name="D:\Web Site Work\koalateasoftware" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Web Site Work\koalateasoftware\undeployedAssets" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework\deployed" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework" />
       <recent name="D:\Web Site Work\KoalaTea-Software" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Web Site Work\koalateasoftware" />
     </key>
   </component>
   <component name="RemoteSynchronizer">
@@ -97,7 +194,8 @@
       <workItem from="1599490101791" duration="616000" />
       <workItem from="1599575967202" duration="4114000" />
       <workItem from="1599753507917" duration="5826000" />
-      <workItem from="1599806684641" duration="5731000" />
+      <workItem from="1599806684641" duration="6070000" />
+      <workItem from="1599923260655" duration="8044000" />
     </task>
     <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
       <created>1599473241155</created>
@@ -127,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599760033811</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="working scss structure">
+      <created>1599812745290</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599812745290</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +243,8 @@
     <MESSAGE value="Working chapter / section framework" />
     <MESSAGE value="cleanly shows possible chapters in navbar and verifies chapter requests" />
     <MESSAGE value="skeletons for the projects page" />
-    <option name="LAST_COMMIT_MESSAGE" value="skeletons for the projects page" />
+    <MESSAGE value="working scss structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="working scss structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="558" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599809200977">
@@ -153,22 +259,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="597" y="17" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1599809388230" />
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599756446438">
+    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599932829219">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1599756446438" />
-    <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1599760033004">
+    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1599932829219" />
+    <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1599812744293">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="421" y="12" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599760033004" />
+    <state x="421" y="12" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599812744293" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1599757389509">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599757389509" />
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog" timestamp="1599812420038">
+    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog" timestamp="1599932962030">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1599812420038" />
+    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1599932962030" />
     <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog" timestamp="1599811564960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -185,10 +291,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599812058436" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1599760035561">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1599812750668">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1599760035561" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1599812750668" />
     <state x="506" y="163" width="937" height="534" key="find.popup" timestamp="1599754304538">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -197,10 +303,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="1027" y="161" width="507" height="540" key="ftp.server.browser/0.0.1600.860@0.0.1600.860" timestamp="1599756533725" />
-    <state x="643" y="202" key="refactoring.ChangeSignatureDialog" timestamp="1599484024484">
+    <state x="643" y="202" key="refactoring.ChangeSignatureDialog" timestamp="1599931468170">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="643" y="202" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1599484024484" />
+    <state x="643" y="202" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931468170" />
     <state x="592" y="378" width="490" height="397" key="scopes" timestamp="1599808862594">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
