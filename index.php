@@ -3,6 +3,9 @@ $relativeSiteRoot = "/koalateasoftware.com/"; // used when telling the browser t
 $absoluteSiteRoot = $_SERVER['DOCUMENT_ROOT'] . $relativeSiteRoot; // used when telling the interpreter to get files
 
 require_once $absoluteSiteRoot . '_framework/errorHandler.php';
+require_once $absoluteSiteRoot . "_framework/interpretRequest.php";
+require_once $absoluteSiteRoot . "_framework/listSubsections.php";
+require_once $absoluteSiteRoot . "_framework/getSectionalMetaTags.php";
 
 $chapter = "";
 $section = "";
@@ -10,18 +13,16 @@ $subSection = "";
 $pageRoot = "";
 $titleTag = "";
 
-require_once $absoluteSiteRoot . "_framework/interpretRequest.php";
 
 interpretRequest(
     $_SERVER['REQUEST_URI'],
-    $absoluteSiteRoot,
     $chapter,
     $section,
-    $subSection,
-    $pageRoot
+    $subSection
 );
+
 $pageRoot = $absoluteSiteRoot . $chapter . '/';
-$titleTag = ucwords(str_replace('-', ' ', $chapter)); // until a chapter or section changes it
+$titleTag = ucwords(str_replace(array('-', '_'), ' ', $chapter)); // until a chapter or section changes it
 $chaptersToIgnore[] = "home";
 $availableChapters = listSubordinates($absoluteSiteRoot . "[!_]*/contents.php", $chaptersToIgnore);
 ?>
@@ -47,7 +48,7 @@ $availableChapters = listSubordinates($absoluteSiteRoot . "[!_]*/contents.php", 
 <section id="contents" class="container-fluid">
     <?php
     /** @noinspection PhpIncludeInspection */
-    require_once $pageRoot . "/contents.php";
+    require_once $pageRoot . "contents.php";
     ?>
 </section>
 <section id="footer">

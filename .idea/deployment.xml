@@ -13,13 +13,11 @@
             <excludedPath path="/rosegoldthorp.com.stage" />
             <excludedPath path="/info" />
             <excludedPath path="/old" />
-            <excludedPath local="true" path="$PROJECT_DIR$/koalateasoftware.com/projects/rose-goldthorp/cucumber-html-reports" />
             <excludedPath local="true" path="$PROJECT_DIR$/.gitignore" />
             <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
             <excludedPath path="/the-greenlands.com" />
             <excludedPath path="/error_log" />
             <excludedPath local="true" path="$PROJECT_DIR$/undeployedAssets" />
-            <excludedPath local="true" path="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/cucumber-html-reports" />
           </excludedPaths>
         </serverdata>
       </paths>

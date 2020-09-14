@@ -6,30 +6,17 @@
  * a blank chapter => home
  *
  * @param string $requestURI - same as $_SERVER[ request uri ] emphasise the need
- * @param string $absoluteSiteRoot - this could vary a bit depending on hosting scheme
  * @param string $chapter - out - extracted from the request uri
  * @param string $section - out
  * @param string $subSection - out
- * @param string $pageRoot - out - require this and you should get what the user has asked for
  */
 function interpretRequest(
     $requestURI,
-    $absoluteSiteRoot,
     &$chapter,
     &$section,
-    &$subSection,
-    &$pageRoot
+    &$subSection
 )
 {
-    /** @noinspection PhpIncludeInspection */
-    require_once $absoluteSiteRoot . '_framework/listSubsections.php';
-    /** @noinspection PhpIncludeInspection */
-    include_once $absoluteSiteRoot . "_framework/getSectionalMetaTags.php";
-
-    /*
-     * The following chapter / section handling depends on the rules in the .htaccess file, i.e
-     * RewriteRule ^.*$ /index.php?%{QUERY_STRING}
-     */
     error_log("Asked for:" . $requestURI);
 
     $majorParts = explode('?', $requestURI);
@@ -38,24 +25,8 @@ function interpretRequest(
     $section = isset($pathElements[2]) ? strtolower($pathElements[2]) : "";
     $subSection = isset($pathElements[3]) ? strtolower($pathElements[3]) : "";
 
-    if (strlen($chapter == "")) {
+    if ((!isset($chapter)) || ($chapter == "")) {
 //    error_log("Special case, no chapter means home");
         $chapter = "home";
     }
-
-
-//        // ($requestedSection != "") is, therefore, true
-//        // See if the request corresponds to a valid chapter
-//        $availableChapters = listSubsections($absoluteSiteRoot . "[!_]*/contents.php");
-//        if (in_array($requestedChapter, $availableChapters)) {
-//            $chapter = $requestedChapter;
-//            $titleTag = ucwords(str_replace('-', ' ', $chapter));
-//            $pageRoot = $absoluteSiteRoot . $chapter . '/';
-//        } else {
-//            error_log("Requested chapter :". $requestedChapter.": is not one of :" . print_r($availableChapters, true));
-//            $chapter = "home";
-//            $titleTag = "Home";
-//            $pageRoot = $absoluteSiteRoot . $chapter . '/';
-//        }
-//    }
 }

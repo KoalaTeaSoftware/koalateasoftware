@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="now automatically builds a projects menu">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/ass/open-iconic/collapse-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/ass/open-iconic/collapse-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/ass/open-iconic/collapse-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/ass/open-iconic/collapse-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/getSectionalMetaTags.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/getSectionalMetaTags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/interpretRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/interpretRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/listSubsections.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/listSubsections.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/home/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/home/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/home/meta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/home/meta.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/testPlan.htm" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/testPlan.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/undeployedAssets/scss/_furniture.scss" beforeDir="false" afterPath="$PROJECT_DIR$/undeployedAssets/scss/_furniture.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +29,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -51,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/koalateasoftware.com/_framework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/koalateasoftware.com/_framework/ass/open-iconic" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -62,20 +73,22 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework\ass\open-iconic" />
+      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework" />
+      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\projects\the-greenlands" />
+      <recent name="D:\Web Site Work\koalateasoftware" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Web Site Work\koalateasoftware\undeployedAssets" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework\deployed" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework" />
       <recent name="D:\Web Site Work\KoalaTea-Software" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\projects\the-greenlands" />
-      <recent name="D:\Web Site Work\koalateasoftware" />
     </key>
   </component>
   <component name="RemoteSynchronizer">
@@ -105,7 +118,11 @@
       <workItem from="1599753507917" duration="5826000" />
       <workItem from="1599806684641" duration="6070000" />
       <workItem from="1599923260655" duration="10994000" />
-      <workItem from="1599980275759" duration="3158000" />
+      <workItem from="1599980275759" duration="8153000" />
+      <workItem from="1599993543344" duration="7522000" />
+      <workItem from="1600061987440" duration="3012000" />
+      <workItem from="1600066144270" duration="9000" />
+      <workItem from="1600080173930" duration="777000" />
     </task>
     <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
       <created>1599473241155</created>
@@ -177,10 +194,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="597" y="17" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1599809388230" />
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599980949770">
+    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599994012050">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1599980949770" />
+    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1599994012050" />
     <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1599984354832">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -189,14 +206,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="578" y="342" width="444" height="387" key="ComposerInitDialogKey/0.0.1600.860@0.0.1600.860" timestamp="1599980312765" />
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1599757389509">
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1600081736689">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599757389509" />
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog" timestamp="1599932962030">
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1600081736689" />
+    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog" timestamp="1600065582126">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1599932962030" />
+    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1600065582126" />
     <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog" timestamp="1599811564960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -209,10 +226,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="634" y="353" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1599758588027" />
-    <state x="301" y="74" width="1159" height="711" key="SettingsEditor" timestamp="1599984455997">
+    <state x="615" y="132" key="RollbackChangesDialog" timestamp="1599996495769">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599984455997" />
+    <state x="615" y="132" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1599996495769" />
+    <state x="301" y="74" width="1159" height="711" key="SettingsEditor" timestamp="1599995253815">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599995253815" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1599933130273">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

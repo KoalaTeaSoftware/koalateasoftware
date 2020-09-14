@@ -7,7 +7,7 @@
  */
 function getExtraMetaTags($location)
 {
-    if (file_exists($location . "meta.txt")) {
+    if (file_exists($location . "meta.htm")) {
         $data = file_get_contents($location . "meta.txt");
         if ($data)
             return '<meta name="description" content="' . $data . '">';
