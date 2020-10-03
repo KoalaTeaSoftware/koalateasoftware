@@ -1,4 +1,6 @@
+<p>Hello, I'm Mark. Pleased to meet you.</p>
 <?php
+exit;
 $relativeSiteRoot = "/koalateasoftware.com/"; // used when telling the browser to get files
 $absoluteSiteRoot = $_SERVER['DOCUMENT_ROOT'] . $relativeSiteRoot; // used when telling the interpreter to get files
 
