@@ -90,11 +90,11 @@ $randomParam = md5(rand());
 <head>
     <?= $metaHtml ?>
     <title>Koala Tea Software</title>
-    <link rel="stylesheet" href="kts/essentialStyles.css?<?= $randomParam ?>">
-    <link rel="apple-touch-icon" sizes="180x180" href="kts/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="kts/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="kts/favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="/kts/essentialStyles.css?<?= $randomParam ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="/kts/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/kts/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/kts/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body class="container-fluid">
 <div id="furniture">
@@ -119,7 +119,7 @@ $randomParam = md5(rand());
     require $chapterContentsFileName;
     ?>
 </div>
-<link rel="stylesheet" type="text/css" href="kts/remainingStyles.css?<?= $randomParam ?>">
+<link rel="stylesheet" type="text/css" href="/kts/remainingStyles.css?<?= $randomParam ?>">
 <!--suppress SpellCheckingInspection -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -137,4 +137,7 @@ $randomParam = md5(rand());
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
 >
+<div id="footer" class="container-fluid">
+    &nbsp;
+</div>
 </body>

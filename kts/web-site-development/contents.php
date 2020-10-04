@@ -1,6 +1,6 @@
 <div class="container-fluid" id="web-site-development">
     <nav id="projNav" class="nav navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="//web-site-development?<?= $randomParam ?>">Web Site Development</a>
+        <a class="navbar-brand" href="/web-site-development?<?= $randomParam ?>">Web Site Development</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#projNavAltMarkup"
                 aria-controls="projNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

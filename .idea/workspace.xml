@@ -4,7 +4,13 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="" />
+    <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/essentialStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/essentialStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/essentialStyles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/kts/essentialStyles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/undeployedAssets/scss/_furniture.scss" beforeDir="false" afterPath="$PROJECT_DIR$/kts/undeployedAssets/scss/_furniture.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +111,7 @@
       <workItem from="1600061987440" duration="3012000" />
       <workItem from="1600066144270" duration="9000" />
       <workItem from="1600080173930" duration="777000" />
+      <workItem from="1601819040341" duration="1143000" />
     </task>
     <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
       <created>1599473241155</created>
@@ -155,8 +162,17 @@
       <option name="project" value="LOCAL" />
       <updated>1601809402750</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
-    <servers />
+    <task id="LOCAL-00008" summary="KTS-1 Clean up structure of web site &#10;Resumed the removal of the log file on each entry to index.php">
+      <created>1601809567847</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601809567847</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers>
+      <YouTrack shared="true" url="https://koalatea-software.myjetbrains.com/youtrack" />
+    </servers>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -171,7 +187,8 @@
     <MESSAGE value="working scss structure" />
     <MESSAGE value="now automatically builds a projects menu" />
     <MESSAGE value="KTS-1 Clean up structure of web site &#10;This now appears to work as expected, without compromising the other sites" />
-    <option name="LAST_COMMIT_MESSAGE" value="KTS-1 Clean up structure of web site &#10;This now appears to work as expected, without compromising the other sites" />
+    <MESSAGE value="KTS-1 Clean up structure of web site &#10;Resumed the removal of the log file on each entry to index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="KTS-1 Clean up structure of web site &#10;Resumed the removal of the log file on each entry to index.php" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -191,18 +208,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1599994012050" />
-    <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1601809400558">
+    <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1601809566852">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="421" y="12" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1601809400558" />
+    <state x="421" y="12" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1601809566852" />
     <state x="578" y="342" width="444" height="387" key="ComposerInitDialogKey" timestamp="1599980312765">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="578" y="342" width="444" height="387" key="ComposerInitDialogKey/0.0.1600.860@0.0.1600.860" timestamp="1599980312765" />
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1601808768661">
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1601822640846">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1601808768661" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1601822640846" />
     <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog" timestamp="1601808768661">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -211,10 +228,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1601807889166" />
-    <state x="234" y="215" key="FileChooserDialogImpl" timestamp="1601808422218">
+    <state x="234" y="215" key="FileChooserDialogImpl" timestamp="1601822297789">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="234" y="215" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601808422218" />
+    <state x="234" y="215" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601822297789" />
     <state x="634" y="353" key="NewPhpFileDialog" timestamp="1599758588027">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -227,10 +244,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1601808426354" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1601809407872">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1601809570063">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1601809407872" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1601809570063" />
     <state x="506" y="163" width="937" height="534" key="find.popup" timestamp="1599754304538">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
