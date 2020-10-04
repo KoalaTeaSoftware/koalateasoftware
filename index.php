@@ -1,59 +1,140 @@
-<p>Hello, I'm Mark. Pleased to meet you.</p>
 <?php
-exit;
-$relativeSiteRoot = "/koalateasoftware.com/"; // used when telling the browser to get files
-$absoluteSiteRoot = $_SERVER['DOCUMENT_ROOT'] . $relativeSiteRoot; // used when telling the interpreter to get files
+// embed the contents of the error handler directly here, in th hope of speed improvements
+// it would probably be good to use the extracted handler file in /components
+$logFile = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . "error_log";
 
-require_once $absoluteSiteRoot . '_framework/errorHandler.php';
-require_once $absoluteSiteRoot . "_framework/interpretRequest.php";
-require_once $absoluteSiteRoot . "_framework/listSubsections.php";
-require_once $absoluteSiteRoot . "_framework/getSectionalMetaTags.php";
+error_reporting(-1); // that is every possible error will be trapped
+//ini_set('display_errors', 'Off');
+ini_set('log_errors', 'On');
+ini_set('error_log', $logFile);
 
-$chapter = "";
-$section = "";
-$subSection = "";
-$pageRoot = "";
-$titleTag = "";
+/**
+ * The function used instead of the PHP default logging function. Its name is in the ini_set (above)
+ * @param $errNo - system provided
+ * @param $errStr - system provided
+ * @param $errFile - system provided
+ * @param $errLine - system provided
+ */
+function myErrorHandler($errNo, $errStr, $errFile, $errLine)
+{
+    error_log(
+        "\n-------------------------------------------\n" .
+        "ErrStr: " . $errStr . "\n" .
+        "Locn: " . $errFile . "\n" .
+        "Line: " . $errLine . "\n" .
+        "ErrNo: " . $errNo . "\n" .
+        "-------------------------------------------\n");
+}
 
+set_error_handler('myErrorHandler', E_ALL | E_STRICT);
 
-interpretRequest(
-    $_SERVER['REQUEST_URI'],
-    $chapter,
-    $section,
-    $subSection
-);
+//if (file_exists($logFile)) {
+//    unlink($logFile);
+//}
 
-$pageRoot = $absoluteSiteRoot . $chapter . '/';
-$titleTag = ucwords(str_replace(array('-', '_'), ' ', $chapter)); // until a chapter or section changes it
-$chaptersToIgnore[] = "home";
-$availableChapters = listSubordinates($absoluteSiteRoot . "[!_]*/contents.php", $chaptersToIgnore);
+error_log("-----------------------------------------------------------");
+error_log("Server:" . print_r($_SERVER, true));
+//error_log("Get:" . print_r($_GET, true));
+//error_log("Post:" . print_r($_POST, true));
+error_log("-----------------------------------------------------------");
+//==============================================================================================================================
+$majorParts = explode('?', $_SERVER['REQUEST_URI']);
+$pathElements = explode('/', $majorParts[0]);
+$chapter = isset($pathElements[1]) ? strtolower($pathElements[1]) : "";
+$section = isset($pathElements[2]) ? strtolower($pathElements[2]) : "";
+$subSection = isset($pathElements[3]) ? strtolower($pathElements[3]) : "";
+
+if ((!isset($chapter)) || ($chapter == "")) {
+    error_log("Special case, no chapter means home");
+    $chapter = "home";
+}
+//==============================================================================================================================
+/* In most cases (all of the addon domains), the domain name gets you to the right place in the file store.
+ * ie ~/public_html/<domain-name>/
+ * With this site, however, as it is the primary domain, getting the domain name gets you files starting at ~public_html
+ * It said that it is possible to make .htaccess send the request to a subdomain, but this seems a tedious, and unreliable process
+ * Therefore index.php is located at ~/public_html, and ~/public_html/.htaccess has code to trap all relevant
+ * (koalateasoftware.com...) requests and send them to ~/public_html/index.php
+ * However, so as to try to keep the file store as tidy as possible, all of the gust of this site are in a folder (relecting the
+ * organisation of the other (addon) sites).
+ */
+$siteFileRoot = $_SERVER['DOCUMENT_ROOT'] . "/kts/";
+$chapterFileRoot = $siteFileRoot . $chapter . "/";
+$chapterContentsFileName = $chapterFileRoot . "contents.php";
+
+error_log("Chapter:" . $chapter);
+error_log("Section:" . $section);
+error_log("Subsection:" . $subSection);
+error_log("Site file root:" . $siteFileRoot);
+error_log("Chapter file root:" . $chapterFileRoot);
+
+if (!file_exists($chapterContentsFileName)) {
+    error_log("No chapter contents defined at :" . $chapterContentsFileName);
+    $chapter = "home";
+    $chapterFileRoot = $siteFileRoot . "chapters/" . $chapter . "/";
+}
+//==============================================================================================================================
+$metaHtml = '<meta charset="utf-8">';
+$metaHtml .= '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">';
+$metaHtml .= '<meta name="robots" content="noindex,nofollow">'; //ToDo: remove this from live
+$chapterMetaFileName = $chapterFileRoot . "meta.htm";
+if (file_exists($chapterMetaFileName) && (($data = file_get_contents($chapterMetaFileName)) != false))
+    $metaHtml .= $data;
+else
+    error_log("Meta data was not read for file " . $chapterMetaFileName);
+//==============================================================================================================================
+$randomParam = md5(rand());
 ?>
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-    <title><?= $titleTag ?></title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <?php
-    require_once $absoluteSiteRoot . '_framework/bodyParts/head-meta.php';
-    echo getExtraMetaTags($pageRoot);
-    require_once $absoluteSiteRoot . '_framework/bodyParts/head-bootstrap.php';
-    require_once $absoluteSiteRoot . '_framework/bodyParts/head-common.php';
-    ?>
+    <?= $metaHtml ?>
+    <title>Koala Tea Software</title>
+    <link rel="stylesheet" href="kts/essentialStyles.css?<?= $randomParam ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="kts/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="kts/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="kts/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 </head>
-<body id="<?= $chapter ?>" class="container-fluid">
-<section id="furniture">
-    <?php require_once $absoluteSiteRoot . '_framework/bodyParts/body-section-furniture.php'; ?>
-</section>
-<section id="contents" class="container-fluid">
+<body class="container-fluid">
+<div id="furniture">
+    <nav id="mainNav" class="nav navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/?<?= $randomParam ?>">Koala Tea Software</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/about?<?= $randomParam ?>">About</a>
+                <a class="nav-item nav-link" href="/web-site-development?<?= $randomParam ?>">Web Site Development</a>
+                <a class="nav-item nav-link" href="/software-quality-assurance?<?= $randomParam ?>">Software Quality
+                    Assurance</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div id="contents" class="container-fluid">
     <?php
-    /** @noinspection PhpIncludeInspection */
-    require_once $pageRoot . "contents.php";
+    require $chapterContentsFileName;
     ?>
-</section>
-<section id="footer">
-    <?php require_once $absoluteSiteRoot . '_framework/bodyParts/body-section-pageFooter.php'; ?>
-</section>
+</div>
+<link rel="stylesheet" type="text/css" href="kts/remainingStyles.css?<?= $randomParam ?>">
+<!--suppress SpellCheckingInspection -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<!--suppress SpellCheckingInspection -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<!--suppress SpellCheckingInspection -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+<!--suppress SpellCheckingInspection -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+>
 </body>

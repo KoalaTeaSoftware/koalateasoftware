@@ -1,10 +1,39 @@
-RewriteEngine On
+# DISABLE CACHING
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+</IfModule>
 
+<FilesMatch "\.(css|flv|gif|htm|html|ico|jpe|jpeg|jpg|js|mp3|mp4|png|pdf|swf|txt)$">
+    <IfModule mod_expires.c>
+        ExpiresActive Off
+    </IfModule>
+    <IfModule mod_headers.c>
+        FileETag None
+        Header unset ETag
+        Header unset Pragma
+        Header unset Cache-Control
+        Header unset Last-Modified
+        Header set Pragma "no-cache"
+        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+        Header set Expires "Thu, 1 Jan 1970 00:00:00 GMT"
+    </IfModule>
+</FilesMatch>
+
+RewriteEngine On
 RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteRule ^info.*$ - [NC,L]
-#RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-f
-#RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-d
-#RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-l
-RewriteCond %{REQUEST_URI} !\.(png|gif|jpg|jpeg|js|css|mp3|wav|txt|map|ico|pdf|html|svg)$
-RewriteRule . /index.php [L]
+# provide a shortcut by teminating redirect processing if the request is for a front controller
+RewriteRule ^index\.php$ - [NC,L]
+
+# if the request is for a koalatea asset (any others are ignored by this file)
+RewriteCond %{HTTP_HOST} ^(www.)?koalateasoftware.com$
+
+# And the request is not for one of the static assets
+RewriteCond %{REQUEST_URI} !\.(png|gif|jpg|jpeg|js|css|mp3|wav|txt|map|ico|pdf|html|svg|woff2)$
+
+# make a special case for the wiki
+RewriteCond %{REQUEST_URI} !^/info
+
+# push everything else through the front controller for KTS
+RewriteRule . /index.php

@@ -4,25 +4,238 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="now automatically builds a projects menu">
-      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/ass/open-iconic/collapse-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/ass/open-iconic/collapse-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/ass/open-iconic/collapse-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/ass/open-iconic/collapse-up.svg" afterDir="false" />
+    <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kts/about/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/about/meta.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/essentialStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/home/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/home/meta.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/remainingStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/remainingStyles.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/software-quality-assurance/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/undeployedAssets/scss/_webDev.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/undeployedAssets/scss/remainingStyles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ftpquota" beforeDir="false" afterPath="$PROJECT_DIR$/.ftpquota" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/PHP Markdown 1.0.2/License.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/PHP Markdown 1.0.2/PHP Markdown Readme.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/PHP Markdown 1.0.2/markdown.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/ass/WorkingCogs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/ass/open-iconic/collapse-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/ass/open-iconic/collapse-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/ass/open-iconic/collapse-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/ass/open-iconic/collapse-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/ass/open-iconic/layers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/bodyParts/body-section-furniture.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/bodyParts/body-section-pageFooter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/bodyParts/head-bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/errorHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/getSectionalMetaTags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/interpretRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_framework/listSubsections.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/logo-android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/logo-android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/kts/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/contents.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/meta.htm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/kts/essentialStyles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/getSectionalMetaTags.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/getSectionalMetaTags.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/interpretRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/interpretRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/listSubsections.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/_framework/listSubsections.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/home/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/home/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/home/meta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/home/meta.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/testPlan.htm" beforeDir="false" afterPath="$PROJECT_DIR$/koalateasoftware.com/projects/the-greenlands/testPlan.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/undeployedAssets/scss/_furniture.scss" beforeDir="false" afterPath="$PROJECT_DIR$/undeployedAssets/scss/_furniture.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/head-common.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koalateasoftware.com/_framework/bodyParts/head-meta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/rose-goldthorp/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_-1194493772.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_-1384711262.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_-1514876909.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_-1576249954.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_-2035082806.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_-2065239281.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_-308012202.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_-443224673.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_-818776999.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_-925136437.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_1203132829.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_1297665304.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_1393566484.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_165316976.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_1893437305.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_1937757608.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_1960643624.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_1974331360.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_2057051767.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_242671834.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_324566159.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_598063629.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_673217368.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_721166699.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_760212226.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_786075972.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/embeddings/embedding_821473233.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/overview-failures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/overview-features.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/overview-steps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/overview-tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_1074345064.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_1728123616.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_1_1124345819.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_1_1489119203.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_1_1684911237.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_1_1737958768.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_1_2009534629.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_1_2442476086.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_1_280079145.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_1_3701140081.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_1_910359474.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_2009534629.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_2122847341.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_2442476086.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_2665175478.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_280079145.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_2886916182.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_2_1684911237.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_2_1728123616.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_2_1737958768.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_2_2744294546.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_2_3701140081.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_343423942.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_3701140081.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_3_2665175478.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_4_910359474.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_5_1684911237.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_682976066.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-feature_910359474.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-tag_1910945319.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-tag_197329173.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-tag_2149499106.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-tag_2149507997.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-tag_2757211148.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-tag_3001694653.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-tag_3043924546.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-tag_3110461058.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-tag_3744142299.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/cucumber-html-reports/report-tag_4072360780.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rose-goldthorp/testPlan.htm" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/rose-goldthorp/testPlan.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-1194493772.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-1384711262.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-1514876909.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-1576249954.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-2035082806.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-2065239281.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-308012202.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-443224673.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-818776999.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_-925136437.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1203132829.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1297665304.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1393566484.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_165316976.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1893437305.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1937757608.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1960643624.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_1974331360.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_2057051767.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_242671834.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_324566159.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_598063629.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_673217368.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_721166699.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_760212226.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_786075972.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/embeddings/embedding_821473233.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/overview-failures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/overview-features.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/overview-steps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/overview-tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_1074345064.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_1728123616.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_1_1124345819.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_1_1489119203.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_1_1684911237.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_1_1737958768.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_1_2009534629.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_1_2442476086.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_1_280079145.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_1_3701140081.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_1_910359474.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_2009534629.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_2122847341.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_2442476086.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_2665175478.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_280079145.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_2886916182.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_2_1684911237.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_2_1728123616.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_2_1737958768.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_2_2744294546.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_2_3701140081.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_343423942.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_3701140081.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_3_2665175478.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_4_910359474.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_5_1684911237.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_682976066.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-feature_910359474.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-tag_1910945319.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-tag_197329173.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-tag_2149499106.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-tag_2149507997.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-tag_2757211148.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-tag_3001694653.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-tag_3043924546.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-tag_3110461058.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-tag_3744142299.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/cucumber-html-reports/report-tag_4072360780.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/the-greenlands/testPlan.htm" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/the-greenlands/testPlan.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-greenlands/.ftpquota" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/undeployedAssets/scss/_furniture.scss" beforeDir="false" afterPath="$PROJECT_DIR$/kts/undeployedAssets/scss/_furniture.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/undeployedAssets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/kts/undeployedAssets/scss/essentialStyles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +275,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/koalateasoftware.com/_framework/ass/open-iconic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -77,18 +290,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web Site Work\koalateasoftware\kts" />
+      <recent name="D:\Web Site Work\koalateasoftware" />
+      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites\the-greenlands" />
+      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites\rose-goldthorp" />
+      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web Site Work\koalateasoftware\kts\undeployedAssets\scss" />
+      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\software-quality-assurance" />
+      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework\ass\open-iconic" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\projects\the-greenlands" />
-      <recent name="D:\Web Site Work\koalateasoftware" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Web Site Work\koalateasoftware\undeployedAssets" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework\deployed" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework" />
-      <recent name="D:\Web Site Work\KoalaTea-Software" />
     </key>
   </component>
   <component name="RemoteSynchronizer">
@@ -190,10 +404,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860@0.0.1600.860" timestamp="1599809752931" />
-    <state x="597" y="17" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599809388230">
+    <state x="0" y="17" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601804696928">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="597" y="17" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1599809388230" />
+    <state x="0" y="17" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1601804696928" />
     <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599994012050">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -206,22 +420,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="578" y="342" width="444" height="387" key="ComposerInitDialogKey/0.0.1600.860@0.0.1600.860" timestamp="1599980312765" />
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1600081736689">
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1601808768661">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1600081736689" />
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog" timestamp="1600065582126">
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1601808768661" />
+    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog" timestamp="1601808768661">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1600065582126" />
-    <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog" timestamp="1599811564960">
+    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1601808768661" />
+    <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog" timestamp="1601807889166">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1599811564960" />
-    <state x="234" y="215" key="FileChooserDialogImpl" timestamp="1599980310881">
+    <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1601807889166" />
+    <state x="234" y="215" key="FileChooserDialogImpl" timestamp="1601808422218">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="234" y="215" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599980310881" />
+    <state x="234" y="215" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601808422218" />
     <state x="634" y="353" key="NewPhpFileDialog" timestamp="1599758588027">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -230,10 +444,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="615" y="132" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1599996495769" />
-    <state x="301" y="74" width="1159" height="711" key="SettingsEditor" timestamp="1599995253815">
+    <state x="301" y="74" width="1159" height="711" key="SettingsEditor" timestamp="1601808426354">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599995253815" />
+    <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1601808426354" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1599933130273">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -242,10 +456,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="506" y="163" width="937" height="534" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1599754304538" />
-    <state x="1027" y="161" width="507" height="540" key="ftp.server.browser" timestamp="1599756533725">
+    <state x="1027" y="161" width="507" height="540" key="ftp.server.browser" timestamp="1601744255445">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="1027" y="161" width="507" height="540" key="ftp.server.browser/0.0.1600.860@0.0.1600.860" timestamp="1599756533725" />
+    <state x="1027" y="161" width="507" height="540" key="ftp.server.browser/0.0.1600.860@0.0.1600.860" timestamp="1601744255445" />
     <state x="643" y="202" key="refactoring.ChangeSignatureDialog" timestamp="1599931468170">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
