@@ -28,9 +28,9 @@ function myErrorHandler($errNo, $errStr, $errFile, $errLine)
 
 set_error_handler('myErrorHandler', E_ALL | E_STRICT);
 
-//if (file_exists($logFile)) {
-//    unlink($logFile);
-//}
+if (file_exists($logFile)) {
+    unlink($logFile);
+}
 
 error_log("-----------------------------------------------------------");
 error_log("Server:" . print_r($_SERVER, true));
