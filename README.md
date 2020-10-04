@@ -10,7 +10,7 @@
     * Must contain a file called contents.php
   * Section
     * There has to be a directory (with a name matching the request) within the requested chapter
-    * Not (currently) demanding that there be a contents.php in the section directory
+    * Not (currently) demanding there be a file called contents.php in the section directory
     
 ## Auto Creation of the main menu
 * This depends on the directory structure, too

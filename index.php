@@ -17,6 +17,7 @@ ini_set('error_log', $logFile);
  */
 function myErrorHandler($errNo, $errStr, $errFile, $errLine)
 {
+    /** @noinspection SpellCheckingInspection */
     error_log(
         "\n-------------------------------------------\n" .
         "ErrStr: " . $errStr . "\n" .
@@ -55,7 +56,7 @@ if ((!isset($chapter)) || ($chapter == "")) {
  * It said that it is possible to make .htaccess send the request to a subdomain, but this seems a tedious, and unreliable process
  * Therefore index.php is located at ~/public_html, and ~/public_html/.htaccess has code to trap all relevant
  * (koalateasoftware.com...) requests and send them to ~/public_html/index.php
- * However, so as to try to keep the file store as tidy as possible, all of the gust of this site are in a folder (relecting the
+ * However, so as to try to keep the file store as tidy as possible, all of the gust of this site are in a folder (reflecting the
  * organisation of the other (addon) sites).
  */
 $siteFileRoot = $_SERVER['DOCUMENT_ROOT'] . "/kts/";
@@ -106,8 +107,11 @@ $randomParam = md5(rand());
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
+                <!--suppress HtmlUnknownTarget -->
                 <a class="nav-item nav-link" href="/about?<?= $randomParam ?>">About</a>
+                <!--suppress HtmlUnknownTarget -->
                 <a class="nav-item nav-link" href="/web-site-development?<?= $randomParam ?>">Web Site Development</a>
+                <!--suppress HtmlUnknownTarget -->
                 <a class="nav-item nav-link" href="/software-quality-assurance?<?= $randomParam ?>">Software Quality
                     Assurance</a>
             </div>
@@ -116,6 +120,7 @@ $randomParam = md5(rand());
 </div>
 <div id="contents" class="container-fluid">
     <?php
+    /** @noinspection PhpIncludeInspection */
     require $chapterContentsFileName;
     ?>
 </div>
