@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kts/parsdown/Parsedown.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/stylesEssential.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/stylesRemaining.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/stylesRemaining.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/cucumber.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-1015571127.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-1035578136.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-1786606480.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-676081383.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1453943300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1512519380.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1918782346.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1921671461.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_2055975437.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_434241914.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1972145165.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_2869341152.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_964708626.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/testPlan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/zz-undeployedAssets/parsedown-1.7.4.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/essentialStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/stylesEssential.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/essentialStyles.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/remainingStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/remainingStyles.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/undeployedAssets/scss/_furniture.scss" beforeDir="false" afterPath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/_furniture.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/undeployedAssets/scss/_webDev.scss" beforeDir="false" afterPath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/_webDev.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/undeployedAssets/scss/essentialStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/stylesEssential.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/undeployedAssets/scss/remainingStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/stylesRemaining.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/contents.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +93,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kts/zz-undeployedAssets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -59,19 +108,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web Site Work\koalateasoftware\kts\zz-undeployedAssets" />
+      <recent name="D:\Web Site Work\koalateasoftware\kts\parsdown" />
+      <recent name="D:\Web Site Work\koalateasoftware\kts" />
+      <recent name="D:\Web Site Work\koalateasoftware\kts\undeployedAssets\scss" />
+      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\software-quality-assurance" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Web Site Work\koalateasoftware\kts" />
       <recent name="D:\Web Site Work\koalateasoftware" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites\the-greenlands" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites\rose-goldthorp" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Web Site Work\koalateasoftware\kts\undeployedAssets\scss" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\software-quality-assurance" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework\ass\open-iconic" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\_framework" />
     </key>
   </component>
   <component name="RemoteSynchronizer">
@@ -106,7 +155,8 @@
       <workItem from="1600061987440" duration="3012000" />
       <workItem from="1600066144270" duration="9000" />
       <workItem from="1600080173930" duration="777000" />
-      <workItem from="1601819040341" duration="1614000" />
+      <workItem from="1601819040341" duration="2451000" />
+      <workItem from="1601881963685" duration="23331000" />
     </task>
     <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
       <created>1599473241155</created>
@@ -171,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601822836436</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Significantly reduce code inspection complaints">
+      <created>1601823295510</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601823295510</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers>
       <YouTrack shared="true" url="https://koalatea-software.myjetbrains.com/youtrack" />
     </servers>
@@ -191,7 +248,8 @@
     <MESSAGE value="KTS-1 Clean up structure of web site &#10;This now appears to work as expected, without compromising the other sites" />
     <MESSAGE value="KTS-1 Clean up structure of web site &#10;Resumed the removal of the log file on each entry to index.php" />
     <MESSAGE value="Fix faults found by the automated test suite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix faults found by the automated test suite" />
+    <MESSAGE value="Significantly reduce code inspection complaints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Significantly reduce code inspection complaints" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -207,14 +265,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="0" y="17" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1601804696928" />
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601822857566">
+    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601993491116">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1601822857566" />
-    <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1601822835298">
+    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1601993491116" />
+    <state x="421" y="12" key="CommitChangelistDialog2" timestamp="1601990210990">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="421" y="12" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1601822835298" />
+    <state x="421" y="12" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1601990210990" />
     <state x="578" y="342" width="444" height="387" key="ComposerInitDialogKey" timestamp="1599980312765">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -223,34 +281,34 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1601822640846" />
-    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog" timestamp="1601808768661">
+    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog" timestamp="1601993805328">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1601808768661" />
+    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1601993805328" />
     <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog" timestamp="1601807889166">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1601807889166" />
-    <state x="234" y="215" key="FileChooserDialogImpl" timestamp="1601822297789">
+    <state x="234" y="215" key="FileChooserDialogImpl" timestamp="1601988323922">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="234" y="215" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601822297789" />
-    <state x="634" y="353" key="NewPhpFileDialog" timestamp="1599758588027">
+    <state x="234" y="215" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601988323922" />
+    <state x="634" y="353" key="NewPhpFileDialog" timestamp="1601967991271">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="634" y="353" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1599758588027" />
+    <state x="634" y="353" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1601967991271" />
     <state x="615" y="132" key="RollbackChangesDialog" timestamp="1599996495769">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="615" y="132" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1599996495769" />
-    <state x="301" y="74" width="1159" height="711" key="SettingsEditor" timestamp="1601808426354">
+    <state x="301" y="74" width="1159" height="711" key="SettingsEditor" timestamp="1601988324989">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1601808426354" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1601822838966">
+    <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1601988324989" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1601823297095">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1601822838966" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1601823297095" />
     <state x="506" y="163" width="937" height="534" key="find.popup" timestamp="1599754304538">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

@@ -44,8 +44,10 @@ $pathElements = explode('/', $majorParts[0]);
 $chapter = isset($pathElements[1]) ? strtolower($pathElements[1]) : "";
 $section = isset($pathElements[2]) ? strtolower($pathElements[2]) : "";
 $subSection = isset($pathElements[3]) ? strtolower($pathElements[3]) : "";
-
-if ((!isset($chapter)) || ($chapter == "")) {
+//==============================================================================================================================
+// Consider some validation, e.g. what if the section is specified, but not the chapter
+// This should only be a matter of responding to malicious use, so it may slow down the UI for a dubious benefit
+if ((!isset($chapter)) || empty($chapter)) {
     error_log("Special case, no chapter means home");
     $chapter = "home";
 }
@@ -75,6 +77,18 @@ if (!file_exists($chapterContentsFileName)) {
     $chapterFileRoot = $siteFileRoot . "chapters/" . $chapter . "/";
 }
 //==============================================================================================================================
+// this is an optimistic setting of the title tag, if there is an error down the line, then it may well be wrong
+// clearly if the path is not good (e.g. subSection, but no section) then it will be inadequate. Again speed vs robustness
+// however, for SEO, it is best that the first reading of the page contains he desired title tag
+if (!empty($subSection))
+    $titleTag = ucwords(str_replace('-', ' ', $subSection));
+elseif (!empty($section))
+    $titleTag = ucwords(str_replace('-', ' ', $section));
+elseif ((!empty($chapter) > 0) && ($chapter != "home"))
+    $titleTag = ucwords(str_replace('-', ' ', $chapter));
+else
+    $titleTag = "Koala Tea Software";
+//==============================================================================================================================
 $metaHtml = '<meta charset="utf-8">';
 $metaHtml .= '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">';
 $metaHtml .= '<meta name="robots" content="noindex,nofollow">'; //ToDo: remove this from live
@@ -90,8 +104,8 @@ $randomParam = md5(rand());
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <?= $metaHtml ?>
-    <title>Koala Tea Software</title>
-    <link rel="stylesheet" href="/kts/essentialStyles.css?<?= $randomParam ?>">
+    <title><?= $titleTag ?></title>
+    <link rel="stylesheet" href="/kts/stylesEssential.css?<?= $randomParam ?>">
     <link rel="apple-touch-icon" sizes="180x180" href="/kts/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/kts/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/kts/favicon-16x16.png">
@@ -124,7 +138,7 @@ $randomParam = md5(rand());
     require $chapterContentsFileName;
     ?>
 </div>
-<link rel="stylesheet" type="text/css" href="/kts/remainingStyles.css?<?= $randomParam ?>">
+<link rel="stylesheet" type="text/css" href="/kts/stylesRemaining.css?<?= $randomParam ?>">
 <!--suppress SpellCheckingInspection -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

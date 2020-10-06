@@ -18,7 +18,7 @@
 
 .accordion {
   .btn-link::before {
-    content:  url(http://koalateasoftware.com/koalateasoftware.com/_framework/ass/open-iconic/collapse-down.svg);
+    content: url(http://koalateasoftware.com/koalateasoftware.com/_framework/ass/open-iconic/collapse-down.svg);
     position: relative;
     top: 0;
     right: 0;
@@ -33,9 +33,14 @@
 }
 
 /* for tabbed navs */
-.nav-tabs {
-  border-bottom: 1px solid;
+.nav-tabs, .tab-content {
+  border-style: solid;
+  border-color: darkgray; /* see .nav */
+  border-width: thin; /* see .nav */
+  margin: 0;
+}
 
+.nav-tabs {
   .nav-link {
     background-color: lightgray;
     border-color: lightgray;
@@ -49,7 +54,6 @@
 }
 
 .tab-content {
-  border-style: none solid;
-  border-width: thin;
-  border-color: lightgrey;
+  border-top: none;
+  padding: 0.5rem;
 }

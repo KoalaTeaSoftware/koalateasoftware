@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.tablesorter.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="shortcut icon" href="images/favicon.png"/>
+
+    <script>
+        $(document).ready(function () {
+            // this will tell tablesorter to try looking for the data-value attribute
+            // if present, it'll sort by that instead
+            // otherwise, it'll sort by the text content of the table cell
+            $("#tablesorter").tablesorter({
+                textAttribute: 'data-value',
+                // ignores the first row of the header, the 'scenario', 'steps', since
+                // sorting those doesn't make sense
+                selectorHeaders: '> thead tr:not(.dont-sort) th',
+                // use a stable sort
+                sortStable: true
+            });
+        });
+    </script>
+
+
+    <title>Cucumber Reports (no 0.1) - Feature: Framework capabilities</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+            <p class="navbar-text navbar-left">Cucumber Report</p>
+            <ul class="nav navbar-nav navbar-right">
+                <li role="presentation"><a href="overview-features.html">Features</a></li>
+                <li role="presentation"><a href="overview-tags.html">Tags</a></li>
+                <li role="presentation"><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation"><a href="overview-failures.html">Failures</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="col-md-5 col-md-offset-1">
+
+        <table class="table table-bordered" id="build-info">
+            <thead>
+            <tr>
+                <th>Project</th>
+                <th>Number</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="info">
+                <td>Koala Tea Software - Cucumber Frame</td>
+                <td>0.1</td>
+                <td>21 Sep 2020, 09:03</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <div class="col-md-3 col-md-offset-2">
+    </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+    <div class="col-md-10 col-md-offset-1">
+        <h2>Feature Report</h2>
+    </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <table class="stats-table">
+
+
+                <thead>
+                <tr class="header dont-sort">
+                    <th></th>
+                    <th colspan="6">Steps</th>
+                    <th colspan="3">Scenarios</th>
+                    <th colspan="2">Features</th>
+                </tr>
+                <tr>
+                    <th>Feature</th>
+                    <th class="passed">Passed</th>
+                    <th class="failed">Failed</th>
+                    <th class="skipped">Skipped</th>
+                    <th class="pending">Pending</th>
+                    <th class="undefined">Undefined</th>
+                    <th class="total">Total</th>
+
+                    <th class="passed">Passed</th>
+                    <th class="failed">Failed</th>
+                    <th class="total">Total</th>
+
+                    <th>Duration</th>
+                    <th>Status</th>
+                </tr>
+                </thead>
+
+
+                <tbody>
+                <tr>
+                    <td class="tagname">Framework capabilities</td>
+                    <td class="passed">6</td>
+                    <td class="failed">1</td>
+                    <td class="skipped">1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td class="total">8</td>
+
+                    <td class="passed">2</td>
+                    <td class="failed">1</td>
+                    <td class="total">3</td>
+
+                    <td class="duration" data-value="4850344100">4.850</td>
+                    <td class="failed">Failed</td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1 col-md-offset-10">
+            <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+               onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+            <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+               onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="feature">
+
+                <div class="tags indention">
+                    <b>Tags:</b>
+                    <a href="report-tag_4089311534.html">@smoke</a>
+                </div>
+
+
+                <div class="brief failed">
+                    <span class="keyword indention">Feature</span>
+                    <span class="name">Framework capabilities</span>
+
+
+                </div>
+
+                <div class="description indention"> These scenarios smoke-test features of the test framework</div>
+
+                <div class="elements inner-level">
+
+                    <div class="element">
+
+
+                        <div class="tags indention">
+                            <b>Tags:</b>
+                            <a href="report-tag_4089311534.html">@smoke</a>
+                        </div>
+
+
+                        <span class="lead-duration duration">3.345</span>
+
+
+                        <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Visit a page</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+                        <div class="description indention"> This page is fairly fast, so it should give a quick test
+                        </div>
+
+                        <div id="element-1" class="collapse collapsable-details ">
+
+
+                            <div class="inner-level hooks-element-before">
+                                <div data-toggle="collapse" class=" collapsed  collapsable-control"
+                                     data-target="#before-2">
+
+                                    <div class="brief passed">
+                                        <span class="keyword indention">Hooks</span>
+                                        <span class="name"></span>
+
+
+                                        <i class="chevron fa fa-fw"></i>
+                                    </div>
+
+                                </div>
+
+                                <div id="before-2" class="inner-level collapse collapsable-details ">
+                                    <div class="hook">
+                                        <div class="brief passed">
+                                            <span class="keyword indention">Before</span>
+                                            <span class="location name">testFramework.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
+
+                                            <span class="lead-duration duration">4.144</span>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="steps inner-level">
+                                <div data-toggle="collapse" class=" collapsed  collapsable-control"
+                                     data-target="#steps-3">
+
+                                    <div class="brief passed">
+                                        <span class="keyword indention">Steps</span>
+                                        <span class="name"></span>
+
+
+                                        <i class="chevron fa fa-fw"></i>
+                                    </div>
+
+                                </div>
+
+                                <div id="steps-3" class="inner-level collapse collapsable-details ">
+                                    <div class="step">
+
+
+                                        <div class="brief step-name-When passed">
+                                            <span class="keyword indention">When</span>
+                                            <span class="name">I navigate to the page <span class="argument">&quot;http://koalateasoftware.com&quot;</span></span>
+
+                                            <span class="lead-duration duration">0.025</span>
+
+                                        </div>
+
+
+                                    </div>
+                                    <div class="step">
+
+
+                                        <div class="brief step-name-Then passed">
+                                            <span class="keyword indention">Then</span>
+                                            <span class="name">the page title is <span
+                                                    class="argument">&quot;Home&quot;</span></span>
+
+                                            <span class="lead-duration duration">3.319</span>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="inner-level hooks-element-after">
+                                <div data-toggle="collapse" class=" collapsed  collapsable-control"
+                                     data-target="#after-4">
+
+                                    <div class="brief passed">
+                                        <span class="keyword indention">Hooks</span>
+                                        <span class="name"></span>
+
+
+                                        <i class="chevron fa fa-fw"></i>
+                                    </div>
+
+                                </div>
+
+                                <div id="after-4" class="inner-level collapse collapsable-details ">
+                                    <div class="hook">
+                                        <div class="brief passed">
+                                            <span class="keyword indention">After</span>
+                                            <span class="location name">testFramework.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
+
+                                            <span class="lead-duration duration">0.605</span>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="element">
+
+
+                        <div class="tags indention">
+                            <b>Tags:</b>
+                            <a href="report-tag_4089311534.html">@smoke</a>
+                        </div>
+
+
+                        <span class="lead-duration duration">1.094</span>
+
+
+                        <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Visit a page</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+                        <div class="description indention"> This page is fairly fast, so it should give a quick test
+                        </div>
+
+                        <div id="element-5" class="collapse collapsable-details ">
+
+
+                            <div class="inner-level hooks-element-before">
+                                <div data-toggle="collapse" class=" collapsed  collapsable-control"
+                                     data-target="#before-6">
+
+                                    <div class="brief passed">
+                                        <span class="keyword indention">Hooks</span>
+                                        <span class="name"></span>
+
+
+                                        <i class="chevron fa fa-fw"></i>
+                                    </div>
+
+                                </div>
+
+                                <div id="before-6" class="inner-level collapse collapsable-details ">
+                                    <div class="hook">
+                                        <div class="brief passed">
+                                            <span class="keyword indention">Before</span>
+                                            <span class="location name">testFramework.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
+
+                                            <span class="lead-duration duration">3.110</span>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="steps inner-level">
+                                <div data-toggle="collapse" class=" collapsed  collapsable-control"
+                                     data-target="#steps-7">
+
+                                    <div class="brief passed">
+                                        <span class="keyword indention">Steps</span>
+                                        <span class="name"></span>
+
+
+                                        <i class="chevron fa fa-fw"></i>
+                                    </div>
+
+                                </div>
+
+                                <div id="steps-7" class="inner-level collapse collapsable-details ">
+                                    <div class="step">
+
+
+                                        <div class="brief step-name-When passed">
+                                            <span class="keyword indention">When</span>
+                                            <span class="name">I navigate to the page <span class="argument">&quot;http://koalateasoftware.com/projects&quot;</span></span>
+
+                                            <span class="lead-duration duration">0.019</span>
+
+                                        </div>
+
+
+                                    </div>
+                                    <div class="step">
+
+
+                                        <div class="brief step-name-Then passed">
+                                            <span class="keyword indention">Then</span>
+                                            <span class="name">the page title is <span class="argument">&quot;Projects&quot;</span></span>
+
+                                            <span class="lead-duration duration">1.075</span>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="inner-level hooks-element-after">
+                                <div data-toggle="collapse" class=" collapsed  collapsable-control"
+                                     data-target="#after-8">
+
+                                    <div class="brief passed">
+                                        <span class="keyword indention">Hooks</span>
+                                        <span class="name"></span>
+
+
+                                        <i class="chevron fa fa-fw"></i>
+                                    </div>
+
+                                </div>
+
+                                <div id="after-8" class="inner-level collapse collapsable-details ">
+                                    <div class="hook">
+                                        <div class="brief passed">
+                                            <span class="keyword indention">After</span>
+                                            <span class="location name">testFramework.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
+
+                                            <span class="lead-duration duration">0.592</span>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="element">
+
+
+                        <div class="tags indention">
+                            <b>Tags:</b>
+                            <a href="report-tag_4089311534.html">@smoke</a>
+                        </div>
+
+
+                        <span class="lead-duration duration">0.410</span>
+
+
+                        <span data-toggle="collapse" class=" collapsable-control" data-target="#element-9">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Fail a test with an interesting screen grab</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+                        <div class="description indention"></div>
+
+                        <div id="element-9" class="collapse collapsable-details  in ">
+
+
+                            <div class="inner-level hooks-element-before">
+                                <div data-toggle="collapse" class=" collapsed  collapsable-control"
+                                     data-target="#before-10">
+
+                                    <div class="brief passed">
+                                        <span class="keyword indention">Hooks</span>
+                                        <span class="name"></span>
+
+
+                                        <i class="chevron fa fa-fw"></i>
+                                    </div>
+
+                                </div>
+
+                                <div id="before-10" class="inner-level collapse collapsable-details ">
+                                    <div class="hook">
+                                        <div class="brief passed">
+                                            <span class="keyword indention">Before</span>
+                                            <span class="location name">testFramework.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
+
+                                            <span class="lead-duration duration">3.043</span>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="steps inner-level">
+                                <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-11">
+
+                                    <div class="brief failed">
+                                        <span class="keyword indention">Steps</span>
+                                        <span class="name"></span>
+
+
+                                        <i class="chevron fa fa-fw"></i>
+                                    </div>
+
+                                </div>
+
+                                <div id="steps-11" class="inner-level collapse collapsable-details  in ">
+                                    <div class="step">
+
+
+                                        <div class="brief step-name-When passed">
+                                            <span class="keyword indention">When</span>
+                                            <span class="name">I navigate to the page <span class="argument">&quot;http://koalateasoftware.com&quot;</span></span>
+
+                                            <span class="lead-duration duration">0.015</span>
+
+                                        </div>
+
+
+                                    </div>
+                                    <div class="step">
+
+
+                                        <div class="brief step-name-And passed">
+                                            <span class="keyword indention">And</span>
+                                            <span class="name">I write to the html report <span class="argument">&quot;The following step will cause the scenario to fail. &quot;</span></span>
+
+                                            <span class="lead-duration duration">0.000</span>
+
+                                        </div>
+
+
+                                        <div class="outputs inner-level">
+                                            <div class="output indention">
+                                                <div data-toggle="collapse" class=" collapsed  collapsable-control"
+                                                     data-target="#output-12">
+                                                    Output 1
+                                                    <i class="chevron fa fa-fw"></i>
+                                                </div>
+                                                <div id="output-12" class="collapse collapsable-details ">
+
+                                                    <pre><p>The following step will cause the scenario to fail. </p></pre>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="step">
+
+
+                                        <div class="brief step-name-Then failed">
+                                            <span class="keyword indention">Then</span>
+                                            <span class="name">the page title is <span class="argument">&quot;qwertyuiop&quot;</span></span>
+
+                                            <span class="lead-duration duration">0.394</span>
+
+                                        </div>
+
+
+                                        <div class="inner-level">
+                                            <div class="message indention">
+                                                <div data-toggle="collapse" class=" collapsable-control"
+                                                     data-target="#msg-13">
+                                                    <a>org.junit.ComparisonFailure:</a>
+                                                </div>
+                                                <div id="msg-13" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: The page title is not as expected expected:&lt;[qwertyuiop]&gt; but was:&lt;[Home]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at testFramework.steps.basic.thePageTitleIs(basic.java:32)
+	at &#10045;.the page title is &quot;qwertyuiop&quot;(file:///D:/Web%20Site%20Work/cucumberframe/cucumber-java/src/test/features/framework/smoke.feature:19)
+</pre>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="step">
+
+
+                                        <div class="brief step-name-And skipped">
+                                            <span class="keyword indention">And</span>
+                                            <span class="name">I write to the html report <span class="argument">&quot;This step should be skipped&quot;</span></span>
+
+                                            <span class="lead-duration duration">0.000</span>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="inner-level hooks-element-after">
+                                <div data-toggle="collapse" class=" collapsed  collapsable-control"
+                                     data-target="#after-14">
+
+                                    <div class="brief passed">
+                                        <span class="keyword indention">Hooks</span>
+                                        <span class="name"></span>
+
+
+                                        <i class="chevron fa fa-fw"></i>
+                                    </div>
+
+                                </div>
+
+                                <div id="after-14" class="inner-level collapse collapsable-details ">
+                                    <div class="hook">
+                                        <div class="brief passed">
+                                            <span class="keyword indention">After</span>
+                                            <span class="location name">testFramework.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
+
+                                            <span class="lead-duration duration">0.818</span>
+
+                                        </div>
+
+
+                                        <div class="outputs inner-level">
+                                            <div class="output indention">
+                                                <div data-toggle="collapse" class=" collapsed  collapsable-control"
+                                                     data-target="#output-15">
+                                                    Output 1
+                                                    <i class="chevron fa fa-fw"></i>
+                                                </div>
+                                                <div id="output-15" class="collapse collapsable-details ">
+
+          <pre><p>&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
+    &lt;!-- hello --&gt;
+    &lt;title&gt;Home&lt;/title&gt;
+    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; href=&quot;/apple-touch-icon.png&quot;&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; href=&quot;/favicon-32x32.png&quot;&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;16x16&quot; href=&quot;/favicon-16x16.png&quot;&gt;
+    &lt;link rel=&quot;manifest&quot; href=&quot;/site.webmanifest&quot;&gt;
+    &lt;meta name=&quot;robots&quot; content=&quot;noindex,nofollow&quot;&gt;
+&lt;!--&lt;meta http-equiv=&quot;Cache-Control&quot; content=&quot;no-cache&quot;/&gt;--&gt;
+&lt;!--&lt;meta http-equiv=&quot;Cache-Control&quot; content=&quot;no-store&quot;/&gt;--&gt;
+&lt;!--&lt;meta http-equiv=&quot;Cache-Control&quot; content=&quot;must-revalidate&quot;/&gt;--&gt;
+&lt;!--&lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot;/&gt;--&gt;
+&lt;!--&lt;meta http-equiv=&quot;Expires&quot; content=&quot;0&quot;/&gt;--&gt;
+
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+&lt;!--suppress JSUnresolvedLibraryURL, SpellCheckingInspection --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot; integrity=&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot; crossorigin=&quot;anonymous&quot;&gt;
+&lt;!--suppress JSUnresolvedLibraryURL, SpellCheckingInspection --&gt;
+&lt;script src=&quot;https://code.jquery.com/jquery-3.2.1.slim.min.js&quot; integrity=&quot;sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;!--suppress JSUnresolvedLibraryURL, SpellCheckingInspection --&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js&quot; integrity=&quot;sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;!--suppress JSUnresolvedLibraryURL, SpellCheckingInspection --&gt;
+&lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js&quot; integrity=&quot;sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;!--suppress HtmlUnknownTarget --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/index.css&quot;&gt;
+
+&lt;!--&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue&quot;&gt;&lt;/script&gt;--&gt;
+&lt;!--&lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;152x152&quot; href=&quot;/apple-touch-icon.png&quot; --&gt;
+&lt;!--&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; href=&quot;/favicon-32x32.png&quot;&gt;--&gt;
+&lt;!--&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;16x16&quot; href=&quot;/favicon-16x16.png&quot;&gt;--&gt;
+&lt;!--link rel=&quot;manifest&quot; href=&quot;/site.webmanifest&quot; &gt;--&gt;
+&lt;!--&lt;link rel=&quot;mask-icon&quot; href=&quot;/safari-pinned-tab.svg&quot;--&gt;
+&lt;/head&gt;
+&lt;body id=&quot;home&quot; class=&quot;container-fluid&quot;&gt;
+&lt;div id=&quot;furniture&quot;&gt;
+    &lt;nav id=&quot;mainNav&quot; class=&quot;nav navbar navbar-expand-lg navbar-light bg-light&quot;&gt;
+    &lt;a class=&quot;navbar-brand&quot; href=&quot;/&quot;&gt;Koala Tea Software&lt;/a&gt;
+    &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarNavAltMarkup&quot; aria-controls=&quot;navbarNavAltMarkup&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+        &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarNavAltMarkup&quot;&gt;
+        &lt;div class=&quot;navbar-nav&quot;&gt;
+            &lt;a class=&quot;nav-item nav-link&quot; id=&quot;projectsNav&quot; href=&quot;projects&quot;&gt;Projects &lt;/a&gt;        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;/div&gt;
+&lt;div id=&quot;contents&quot; class=&quot;container-fluid&quot;&gt;
+    &lt;div class=&quot;container-fluid&quot;&gt;
+    &lt;h1&gt;Welcome&lt;/h1&gt;
+    &lt;p&gt;I'm Mark&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;footer&quot;&gt;
+    &lt;div id=&quot;footerContents&quot; class=&quot;row&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;&lt;/html&gt;</p></pre>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="embeddings inner-level">
+                                            <div class="embedding indention">
+                                                <div data-toggle="collapse" data-target="#embedding-16"
+                                                     class="collapsable-control">
+                                                    <a>Screenshot taken because this scenario is marked as FAILED</a>
+                                                    <a href="embeddings/embedding_1964334039.png" download
+                                                       target="_blank">
+                                                        <span class="download-button glyphicon glyphicon-download-alt"></span>
+                                                    </a>
+                                                </div>
+                                                <div id="embedding-16" class="collapse collapsable-details ">
+                                                    <div class="embedding-content">
+                                                        <img src="embeddings/embedding_1964334039.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1 col-md-offset-10">
+            <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+               onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+            <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+               onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+        </div>
+    </div>
+</div>
+
+<br/>
+
+<nav class="navbar navbar-default" id="footer">
+    <div class="container-fluid">
+        <p class="navbar-text navbar-right">
+            <small>generate Cucumber HTML reports via:&nbsp;</small>
+            <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+            <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+            <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+            <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+            &nbsp;&nbsp;
+        </p>
+    </div>
+</nav>
+
+</body>
+</html>
