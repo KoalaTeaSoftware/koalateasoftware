@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="* fix bugs with page titles, and with location of test result sets">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/swords-and-clapboards/testPlan.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/contents.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/cucumber.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/css/cucumber.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/css/font-awesome.min.css" afterDir="false" />
@@ -103,7 +104,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kts/zz-undeployedAssets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kts/web-site-development/swords-and-clapboards" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -118,19 +119,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Web Site Work\koalateasoftware\kts\zz-undeployedAssets" />
-      <recent name="D:\Web Site Work\koalateasoftware\kts\parsdown" />
-      <recent name="D:\Web Site Work\koalateasoftware\kts" />
-      <recent name="D:\Web Site Work\koalateasoftware\kts\undeployedAssets\scss" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\software-quality-assurance" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Web Site Work\koalateasoftware\kts" />
       <recent name="D:\Web Site Work\koalateasoftware" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites\the-greenlands" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites\rose-goldthorp" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web Site Work\koalateasoftware\kts\web-site-development\swords-and-clapboards" />
+      <recent name="D:\Web Site Work\koalateasoftware\kts\zz-undeployedAssets" />
+      <recent name="D:\Web Site Work\koalateasoftware\kts\parsdown" />
+      <recent name="D:\Web Site Work\koalateasoftware\kts" />
+      <recent name="D:\Web Site Work\koalateasoftware\kts\undeployedAssets\scss" />
     </key>
   </component>
   <component name="RemoteSynchronizer">
@@ -167,7 +168,9 @@
       <workItem from="1600080173930" duration="777000" />
       <workItem from="1601819040341" duration="2451000" />
       <workItem from="1601881963685" duration="43813000" />
-      <workItem from="1602146074803" duration="1945000" />
+      <workItem from="1602146074803" duration="4939000" />
+      <workItem from="1602157386118" duration="621000" />
+      <workItem from="1602159999885" duration="1607000" />
     </task>
     <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
       <created>1599473241155</created>
@@ -267,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602144784869</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="* disengage the no-cache from the .htaccess&#10;* some tweaks inspired by Chrome Lighthouse">
+      <created>1602148226800</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602148226800</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers>
       <YouTrack shared="true" url="https://koalatea-software.myjetbrains.com/youtrack" />
     </servers>
@@ -292,7 +302,8 @@
     <MESSAGE value="* fix bugs with page titles when URLS re not good,&#10;* and with the HTML syntax of the WSD page, under some circumstances&#10;* and with locating test result sets (so that they can be displayed)" />
     <MESSAGE value="* a few tweaks to layouts and colours - mostly to do with tab navs" />
     <MESSAGE value="* minor tweak to look of the tabbed nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="* minor tweak to look of the tabbed nav" />
+    <MESSAGE value="* disengage the no-cache from the .htaccess&#10;* some tweaks inspired by Chrome Lighthouse" />
+    <option name="LAST_COMMIT_MESSAGE" value="* disengage the no-cache from the .htaccess&#10;* some tweaks inspired by Chrome Lighthouse" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -312,22 +323,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1602138425634" />
-    <state x="421" y="0" key="CommitChangelistDialog2" timestamp="1602144783213">
+    <state x="421" y="0" key="CommitChangelistDialog2" timestamp="1602148225124">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="421" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602144783213" />
+    <state x="421" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602148225124" />
     <state x="578" y="342" width="444" height="387" key="ComposerInitDialogKey" timestamp="1599980312765">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="578" y="342" width="444" height="387" key="ComposerInitDialogKey/0.0.1600.860@0.0.1600.860" timestamp="1599980312765" />
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1602090672641">
+    <state x="92" y="92" width="1416" height="676" maximized="true" key="DiffContextDialog" timestamp="1602157709224">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1602090672641" />
-    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog" timestamp="1602142905693">
+    <state x="92" y="92" width="1416" height="676" maximized="true" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1602157709224" />
+    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog" timestamp="1602164105958">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1602142905693" />
+    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1602164105958" />
     <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog" timestamp="1601807889166">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -348,10 +359,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602089206815" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602144787409">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602148228521">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602144787409" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602148228521" />
     <state x="506" y="163" width="937" height="534" key="find.popup" timestamp="1602084887683">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -368,9 +379,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="592" y="378" width="490" height="397" key="scopes/0.0.1600.860@0.0.1600.860" timestamp="1599808862594" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1599811633542">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1602163567603">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1599811633542" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1602163567603" />
   </component>
 </project>

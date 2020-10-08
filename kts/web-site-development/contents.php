@@ -12,8 +12,10 @@
         <div class="collapse navbar-collapse" id="projNavAltMarkup">
             <div class="navbar-nav">
                 <!--suppress HtmlUnknownTarget -->
-                <a class="nav-item nav-link" href="/web-site-development/koala-tea-software?<?= $randomParam ?>">
-                    Koala Tea Software</a>
+                <a class="nav-item nav-link"
+                   href="/web-site-development/koala-tea-software?<?= $randomParam ?>">Koala Tea Software</a>
+                <a class="nav-item nav-link"
+                   href="/web-site-development/swords-and-clapboards?<?= $randomParam ?>">Swords and Clapboards</a>
             </div>
         </div>
     </nav>
