@@ -54,6 +54,13 @@ body {
 .nav-tabs {
   border: none;
 
+  .nav-item {
+    padding-top: inherit;
+    padding-right: .25rem;
+    padding-left: .25rem;
+    padding-bottom: 0;
+  }
+
   .nav-link {
     background-color: lightgray;
   }
