@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="* fix bugs with page titles, and with location of test result sets">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/about/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/about/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/stylesEssential.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/stylesEssential.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/stylesEssential.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/kts/stylesEssential.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/cucumber.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/css/cucumber.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/css/font-awesome.min.css" afterDir="false" />
@@ -67,8 +64,9 @@
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-tag_197329173.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-tag_197329173.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-tag_3043924546.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-tag_3043924546.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-tag_4089311534.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-tag_4089311534.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/testPlan.md" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/testPlan.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/_furniture.scss" beforeDir="false" afterPath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/_furniture.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/_webDev.scss" beforeDir="false" afterPath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/_webDev.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +169,7 @@
       <workItem from="1600066144270" duration="9000" />
       <workItem from="1600080173930" duration="777000" />
       <workItem from="1601819040341" duration="2451000" />
-      <workItem from="1601881963685" duration="38133000" />
+      <workItem from="1601881963685" duration="41650000" />
     </task>
     <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
       <created>1599473241155</created>
@@ -250,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601994048832</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="* fix bugs with page titles when URLS re not good,&#10;* and with the HTML syntax of the WSD page, under some circumstances&#10;* and with locating test result sets (so that they can be displayed)">
+      <created>1602138893313</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602138893313</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers>
       <YouTrack shared="true" url="https://koalatea-software.myjetbrains.com/youtrack" />
     </servers>
@@ -272,7 +277,8 @@
     <MESSAGE value="Fix faults found by the automated test suite" />
     <MESSAGE value="Significantly reduce code inspection complaints" />
     <MESSAGE value="* renamed the undeployed assets so that tey show at the bootom of the list&#10;* Added ability to process markdown&#10;* Added web site development chapter&#10;* added data for the WSD &gt; KTS web site" />
-    <option name="LAST_COMMIT_MESSAGE" value="* renamed the undeployed assets so that tey show at the bootom of the list&#10;* Added ability to process markdown&#10;* Added web site development chapter&#10;* added data for the WSD &gt; KTS web site" />
+    <MESSAGE value="* fix bugs with page titles when URLS re not good,&#10;* and with the HTML syntax of the WSD page, under some circumstances&#10;* and with locating test result sets (so that they can be displayed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="* fix bugs with page titles when URLS re not good,&#10;* and with the HTML syntax of the WSD page, under some circumstances&#10;* and with locating test result sets (so that they can be displayed)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -292,10 +298,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1602138425634" />
-    <state x="421" y="0" key="CommitChangelistDialog2" timestamp="1602138417396">
+    <state x="421" y="0" key="CommitChangelistDialog2" timestamp="1602138890174">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="421" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602138417396" />
+    <state x="421" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602138890174" />
     <state x="578" y="342" width="444" height="387" key="ComposerInitDialogKey" timestamp="1599980312765">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -328,10 +334,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602089206815" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1601994058264">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602138896248">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1601994058264" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602138896248" />
     <state x="506" y="163" width="937" height="534" key="find.popup" timestamp="1602084887683">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

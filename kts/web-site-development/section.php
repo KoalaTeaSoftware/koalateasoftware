@@ -1,9 +1,7 @@
 <div id="projectInfo">
     <ul class="nav nav-tabs nav-fill">
-        <li class="nav-item"><a class="nav-link active" href="#testPlanPane" data-toggle="tab"><h3>Test Plan</h3></a>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="#testResultsPane" data-toggle="tab"><h3>Test Results</h3></a>
-        </li>
+        <li class="nav-item"><a class="nav-link active" href="#testPlanPane" data-toggle="tab">Test Plan</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testResultsPane" data-toggle="tab">Test Results</a></li>
     </ul>
     <div class="tab-content">
         <section class="tab-pane fade show active" id="testPlanPane">

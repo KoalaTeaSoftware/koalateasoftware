@@ -65,7 +65,7 @@
                 run
                 of the test are displayed on this site. Here are some of the rest of the tools used:
             </p>
-            <ul>
+            <ul class="list-group">
                 <li class="list-group-item">Chrome Lighthouse - This is a manual, dev-stage activity. We aim for 100%
                     reports on all the aspects tested (but a pinch of salt, and client consultation tempers this aim).
                 </li>

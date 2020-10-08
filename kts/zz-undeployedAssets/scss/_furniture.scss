@@ -1,3 +1,10 @@
+$tabBackgroundColor: #f8f9fa;
+$tabBorderColor: #dee2e6; // this is what Bootstrap gives the tabs, want to add it to the panes
+
+body {
+  background-color: gainsboro !important;
+}
+
 /* It may seem redundant to add .nav to all the navs, but it seems harmless and allows for a simple rule */
 .nav {
   border-color: darkgray;
@@ -33,27 +40,27 @@
 }
 
 /* for tabbed navs */
-.nav-tabs, .tab-content {
-  border-style: solid;
-  border-color: darkgray; /* see .nav */
-  border-width: thin; /* see .nav */
+.tab-content {
   margin: 0;
+  padding: 0.5rem;
+  background-color: $tabBackgroundColor;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $tabBorderColor;
+  border-top-color: $tabBackgroundColor !important;
+  border-radius: 0.25rem;
 }
 
 .nav-tabs {
+  border: none;
+
   .nav-link {
     background-color: lightgray;
-    border-color: lightgray;
-    font-weight: lighter;
   }
 
   .nav-link.active {
     font-weight: bolder;
-    border-color: lightgray lightgray #fff;
+    border-bottom-color: $tabBackgroundColor !important; // override the Bootstrap stuff
+    background-color: $tabBackgroundColor !important;
   }
-}
-
-.tab-content {
-  border-top: none;
-  padding: 0.5rem;
 }
