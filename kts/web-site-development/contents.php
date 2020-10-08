@@ -70,13 +70,13 @@
                     reports on all the aspects tested (but a pinch of salt, and client consultation tempers this aim).
                 </li>
                 <li class="list-group-item">
-                    <a href="https://www.jetbrains.com/youtrack/"
+                    <a href="https://www.jetbrains.com/youtrack/" rel="noreferrer"
                        title="The project management tool designed for agile teams" target="_blank">YouTrack</a> this is
                     used to record non-urgent fixes / features) vital fixes bypass this.
                 </li>
                 <li class="list-group-item">GitHub</li>
                 <li class="list-group-item">
-                    <a href="https://www.jetbrains.com/phpstorm/"
+                    <a href="https://www.jetbrains.com/phpstorm/" rel="noreferrer"
                        title="The Lightning-Smart PHP IDE" target="_blank">PHPStorm</a> another IntelliJ product. It
                     actually lives up to its claims, and eases the producing good quality code.
                 </li>
