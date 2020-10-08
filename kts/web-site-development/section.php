@@ -1,4 +1,4 @@
-<section id="projectInfo">
+<div id="projectInfo">
     <ul class="nav nav-tabs nav-fill">
         <li class="nav-item"><a class="nav-link active" href="#testPlanPane" data-toggle="tab"><h3>Test Plan</h3></a>
         </li>
@@ -6,35 +6,35 @@
         </li>
     </ul>
     <div class="tab-content">
-        <div class="tab-pane fade show active" id="testPlanPane">
+        <section class="tab-pane fade show active" id="testPlanPane">
             <?php
             // the route to the test plan file is via the absolute file path (starting at ~/public_html, as this content
             // is read through  PHP function
             /** @noinspection PhpUndefinedVariableInspection - defined in index.php */
-            $testPlanFile = $sectionRoot . "testPlan.md";
-            $testResultsFile = $sectionRoot . "cucumber-html-reports/overview-features.html";
-            // The route to this has to be from the site's root URL, not the ~/public_html stuff,
-            // because it is used in  the src attribute of an embed
-            $testResultsSrc = "/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-features.html";
+            $testPlanFile = $sectionContentsRoot . "testPlan.md";
+            // This absolute file path variable is used for determining if there is any suitable data
+            $testResultsFile = $sectionContentsRoot . "cucumber-html-reports/overview-features.html";
+            // This relative-to-site-root is used in  the src attribute of an embed
+            /** @noinspection PhpUndefinedVariableInspection */
+            $testResultsSrc = "/kts/web-site-development/" . $section . "/cucumber-html-reports/overview-features.html";
             if (file_exists($testPlanFile) && ($txt = file_get_contents($testPlanFile))) {
-//                error_log("read markup is ...");
-//                error_log($txt);
                 /** @noinspection PhpUndefinedVariableInspection - defined in index.php */
                 /** @noinspection SpellCheckingInspection */
                 require_once $siteFileRoot . "parsdown/Parsedown.php";
                 $converter = new Parsedown();
-//                error_log("Converted markup is ...");
-//                error_log($converter->text($txt));
                 echo $converter->text($txt);
             } else {
                 error_log("Unable to get a test plan from :" . $testPlanFile . ":");
-                echo "<p>Sorry, no test plan</p>";
+                echo "<p class='text-warning'>Sorry, no test plan</p>";
             }
             ?>
-        </div>
-        <div class="tab-pane fade" id="testResultsPane">
+        </section>
+        <section class="tab-pane fade" id="testResultsPane">
+            <h1>Test Results For <?=
+                /** @noinspection PhpUndefinedVariableInspection */
+                $titleTag ?></h1>
             <?
-            error_log("The results file is         :" . $testResultsFile . ":");
+            //            error_log("The results file is         :" . $testResultsFile . ":");
             error_log("The results src attribute is:" . $testResultsSrc . ":");
             if (file_exists($testResultsFile) && ($txt = is_readable($testResultsFile))) {
                 echo <<<EMBEDDONE
@@ -44,17 +44,17 @@
 EMBEDDONE;
             } else {
                 error_log("Unable to read the test results from:" . $testResultsSrc . ":");
-                echo "<p>Sorry, no test results</p>";
+                echo "<p class='text-warning'>Sorry, no test results</p>";
             }
             ?>
-        </div>
+        </section>
     </div>
-</section>
+</div>
 <script>
-    // all links want to be opening in a new tab
+    // all links must be opening in a new tab. It is not possible to specify this using the MarkDown parser that Is used here
     (function () {
-        var links = document.getElementById("testPlanPane").getElementsByTagName("A");
-        for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+        const links = document.getElementById("testPlanPane").getElementsByTagName("A");
+        for (let i = 0, linksLength = links.length; i < linksLength; i++) {
             console.log("processing" + links[i].innerHTML);
             links[i].target = "_blank";
             links[i].setAttribute("rel", "noopener noreferrer");

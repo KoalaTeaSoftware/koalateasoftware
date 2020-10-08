@@ -22,6 +22,7 @@
             <excludedPath path="/swordsandclapboards.com" />
             <excludedPath path="/swordsandclapboards.com.stage" />
             <excludedPath local="true" path="$PROJECT_DIR$/README.md" />
+            <excludedPath local="true" path="*/cucumber-html-reports" />
           </excludedPaths>
         </serverdata>
       </paths>

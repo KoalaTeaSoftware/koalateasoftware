@@ -159,4 +159,5 @@ $randomParam = md5(rand());
 <div id="footer" class="container-fluid">
     &nbsp;
 </div>
+<script>document.title = "<?= $titleTag ?>";</script>
 </body>

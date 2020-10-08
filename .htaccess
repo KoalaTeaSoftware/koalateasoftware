@@ -30,8 +30,8 @@ RewriteRule ^index\.php$ - [NC,L]
 RewriteCond %{HTTP_HOST} ^(www.)?koalateasoftware.com$
 
 # And the request is not for one of the static assets
-RewriteCond %{REQUEST_URI} !\.(png|gif|jpg|jpeg|js|css|mp3|wav|txt|map|ico|pdf|html|svg|woff2)$
-
+RewriteCond %{REQUEST_URI} !\.(png|gif|jpg|jpeg|ico|svg|js|css|map|mp3|wav|txt|pdf|html|ttf|eot|otf|wiff|woff2)$
+RewriteCond %{REQUEST_URI} !site.webmanifest
 # make a special case for the wiki
 RewriteCond %{REQUEST_URI} !^/info
 
