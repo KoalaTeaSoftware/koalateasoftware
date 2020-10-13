@@ -122,12 +122,12 @@ $randomParam = md5(rand());
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <!--suppress HtmlUnknownTarget -->
-                <a class="nav-item nav-link" href="/about?<?= $randomParam ?>">About</a>
+                <a class="nav-item nav-link" href="/software-quality-assurance?<?= $randomParam ?>">Software Quality
+                    Assurance</a>
                 <!--suppress HtmlUnknownTarget -->
                 <a class="nav-item nav-link" href="/web-site-development?<?= $randomParam ?>">Web Site Development</a>
                 <!--suppress HtmlUnknownTarget -->
-                <a class="nav-item nav-link" href="/software-quality-assurance?<?= $randomParam ?>">Software Quality
-                    Assurance</a>
+                <a class="nav-item nav-link" href="/about?<?= $randomParam ?>">About</a>
             </div>
         </div>
     </nav>

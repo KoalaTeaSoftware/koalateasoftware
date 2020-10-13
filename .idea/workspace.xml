@@ -5,66 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="* fix bugs with page titles, and with location of test result sets">
-      <change afterPath="$PROJECT_DIR$/kts/web-site-development/swords-and-clapboards/testPlan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1032183595.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1306613737.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_2117495042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/overview-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/cucumber.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/css/cucumber.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-1015571127.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_-1015571127.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-1035578136.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_-1035578136.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-1786606480.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_-1786606480.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-2100732512.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_-2100732512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-1015571127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-1035578136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-1786606480.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-2100732512.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-2119303323.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_-2119303323.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-676081383.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_-676081383.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-818776999.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_-818776999.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1032183595.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1032183595.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1306613737.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1306613737.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1453943300.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1453943300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1512519380.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1512519380.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-676081383.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_-818776999.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1032183595.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1306613737.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1453943300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1512519380.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1918782346.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1918782346.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1921671461.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1921671461.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1964334039.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1964334039.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_2055975437.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_2055975437.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_2117495042.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_2117495042.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_2129920502.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_2129920502.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_434241914.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_434241914.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_757766994.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_757766994.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1921671461.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_1964334039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_2055975437.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_2117495042.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_2129920502.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_434241914.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/embeddings/embedding_757766994.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/images/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/Chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/js/Chart.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/js/jquery.tablesorter.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/js/moment.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1095682854.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_1095682854.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1286834478.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_1286834478.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1972145165.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_1972145165.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1_1286834478.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_1_1286834478.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-failures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-features.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-steps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/overview-tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1095682854.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1286834478.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1972145165.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1_1286834478.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1_1972145165.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_1_1972145165.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1_848904126.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_1_848904126.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_2869341152.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_2869341152.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_3357325344.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_3357325344.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_3472588999.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_3472588999.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_964708626.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_964708626.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-tag_197329173.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-tag_197329173.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-tag_3043924546.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-tag_3043924546.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-tag_4089311534.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-tag_4089311534.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_1_848904126.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_2869341152.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_3357325344.html" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_1972145165.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_3472588999.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-feature_964708626.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-tag_197329173.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-tag_3043924546.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koalateasoftware/cucumber-html-reports/report-tag_4089311534.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/rose-goldthorp/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/rose-goldthorp/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/rose-goldthorp/testPlan.htm" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/rose-goldthorp/testPlan.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +122,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -170,7 +178,10 @@
       <workItem from="1601881963685" duration="43813000" />
       <workItem from="1602146074803" duration="4939000" />
       <workItem from="1602157386118" duration="621000" />
-      <workItem from="1602159999885" duration="1607000" />
+      <workItem from="1602159999885" duration="4870000" />
+      <workItem from="1602312432374" duration="723000" />
+      <workItem from="1602327177488" duration="3546000" />
+      <workItem from="1602571922686" duration="1745000" />
     </task>
     <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
       <created>1599473241155</created>
@@ -277,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602148226800</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="* added swords-and-clapboards to the web-development chapter">
+      <created>1602164438013</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602164438013</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers>
       <YouTrack shared="true" url="https://koalatea-software.myjetbrains.com/youtrack" />
     </servers>
@@ -303,7 +321,9 @@
     <MESSAGE value="* a few tweaks to layouts and colours - mostly to do with tab navs" />
     <MESSAGE value="* minor tweak to look of the tabbed nav" />
     <MESSAGE value="* disengage the no-cache from the .htaccess&#10;* some tweaks inspired by Chrome Lighthouse" />
-    <option name="LAST_COMMIT_MESSAGE" value="* disengage the no-cache from the .htaccess&#10;* some tweaks inspired by Chrome Lighthouse" />
+    <MESSAGE value="* added swords-and-clapboards to the web-development chapter" />
+    <MESSAGE value="* rearrange order of items on main menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="* rearrange order of items on main menu" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -323,10 +343,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1602138425634" />
-    <state x="421" y="0" key="CommitChangelistDialog2" timestamp="1602148225124">
+    <state x="421" y="0" key="CommitChangelistDialog2" timestamp="1602313201073">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="421" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602148225124" />
+    <state x="421" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602313201073" />
     <state x="578" y="342" width="444" height="387" key="ComposerInitDialogKey" timestamp="1599980312765">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -355,14 +375,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="615" y="132" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1599996495769" />
-    <state x="301" y="74" width="1159" height="711" key="SettingsEditor" timestamp="1602089206815">
+    <state x="301" y="74" width="1159" height="711" key="SettingsEditor" timestamp="1602181840077">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602089206815" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602148228521">
+    <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602181840077" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602164440752">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602148228521" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602164440752" />
     <state x="506" y="163" width="937" height="534" key="find.popup" timestamp="1602084887683">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -379,9 +399,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="592" y="378" width="490" height="397" key="scopes/0.0.1600.860@0.0.1600.860" timestamp="1599808862594" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1602163567603">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1602181617560">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1602163567603" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1602181617560" />
   </component>
 </project>

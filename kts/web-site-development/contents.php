@@ -16,6 +16,8 @@
                    href="/web-site-development/koala-tea-software?<?= $randomParam ?>">Koala Tea Software</a>
                 <a class="nav-item nav-link"
                    href="/web-site-development/swords-and-clapboards?<?= $randomParam ?>">Swords and Clapboards</a>
+                <a class="nav-item nav-link"
+                   href="/web-site-development/rose-goldthorp?<?= $randomParam ?>">Rose Goldthorp</a>
             </div>
         </div>
     </nav>
