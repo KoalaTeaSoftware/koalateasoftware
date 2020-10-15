@@ -49,7 +49,8 @@ $subSection = isset($pathElements[3]) ? strtolower($pathElements[3]) : "";
 // This should only be a matter of responding to malicious use, so it may slow down the UI for a dubious benefit
 if ((!isset($chapter)) || empty($chapter)) {
     error_log("Special case, no chapter means home");
-    $chapter = "home";
+//    $chapter = "home";
+    $chapter = "web-site-development";
 }
 //==============================================================================================================================
 /* In most cases (all of the addon domains), the domain name gets you to the right place in the file store.
@@ -122,12 +123,14 @@ $randomParam = md5(rand());
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <!--suppress HtmlUnknownTarget -->
-                <a class="nav-item nav-link" href="/software-quality-assurance?<?= $randomParam ?>">Software Quality
-                    Assurance</a>
+                <!--                <a class="nav-item nav-link" href="/software-quality-assurance?-->
+                <? //= $randomParam ?><!--">Software Quality-->
+                <!--                    Assurance</a>-->
                 <!--suppress HtmlUnknownTarget -->
                 <a class="nav-item nav-link" href="/web-site-development?<?= $randomParam ?>">Web Site Development</a>
                 <!--suppress HtmlUnknownTarget -->
-                <a class="nav-item nav-link" href="/about?<?= $randomParam ?>">About</a>
+                <!--                <a class="nav-item nav-link" href="/about?-->
+                <? //= $randomParam ?><!--">About</a>-->
             </div>
         </div>
     </nav>

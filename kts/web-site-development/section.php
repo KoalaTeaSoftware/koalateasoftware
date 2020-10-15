@@ -37,7 +37,7 @@
             if (file_exists($testResultsFile) && ($txt = is_readable($testResultsFile))) {
                 echo <<<EMBEDDONE
             <div class="embed-responsive embed-responsive-4by3">
-                <iframe class="embed-responsive-item" src="$testResultsSrc"></iframe>
+                <iframe class="embed-responsive-item" src="$testResultsSrc?$randomParam" id="resultsFrame"></iframe>
             </div>
 EMBEDDONE;
             } else {
@@ -51,12 +51,21 @@ EMBEDDONE;
 <script>
     // all links must be opening in a new tab. It is not possible to specify this using the MarkDown parser that Is used here
     (function () {
-        const links = document.getElementById("testPlanPane").getElementsByTagName("A");
-        for (let i = 0, linksLength = links.length; i < linksLength; i++) {
-            console.log("processing" + links[i].innerHTML);
-            links[i].target = "_blank";
-            links[i].setAttribute("rel", "noopener noreferrer");
-            links[i].className += " externalLink";
+        const planlinks = document.getElementById("testPlanPane").getElementsByTagName("A");
+        for (let i = 0, linksLength = planlinks.length; i < linksLength; i++) {
+            console.log("processing" + planlinks[i].innerHTML);
+            planlinks[i].target = "_blank";
+            planlinks[i].setAttribute("rel", "noopener noreferrer");
+            planlinks[i].className += " externalLink";
         }
+
+        const repLinks = document.getElementById("testResultsPane").getElementsByTagName("A");
+        for (let i = 0, linksLength = repLinks.length; i < repLinks; i++) {
+            console.log("processing" + repLinks[i].innerHTML);
+            repLinks[i].target = "_blank";
+            repLinks[i].setAttribute("rel", "noopener noreferrer");
+            repLinks[i].href += "?<?=$randomParam?>";
+        }
+
     })();
 </script>
