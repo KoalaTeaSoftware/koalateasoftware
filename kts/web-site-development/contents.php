@@ -18,6 +18,8 @@
                    href="/web-site-development/swords-and-clapboards?<?= $randomParam ?>">Swords and Clapboards</a>
                 <a class="nav-item nav-link"
                    href="/web-site-development/rose-goldthorp?<?= $randomParam ?>">Rose Goldthorp</a>
+                <a class="nav-item nav-link"
+                   href="/web-site-development/the-greenlands?<?= $randomParam ?>">The Greenlands</a>
             </div>
         </div>
     </nav>
@@ -44,6 +46,9 @@
             <h1>Web Site Development</h1>
             <p class="lead">Koala Tea Software also develops web sites. Use the nav-bar above to see more details for
                 specific web sites.
+            </p>
+            <p>The sections of this chapter provide samples demonstrating the quality control that is applied to these
+                sites. Clearly, these test suites are incomplete.
             </p>
             <h2>Dev. Stack / Options</h2>
             <ul class="list-group">
