@@ -20,83 +20,45 @@
                    href="/web-site-development/rose-goldthorp?<?= $randomParam ?>">Rose Goldthorp</a>
                 <a class="nav-item nav-link"
                    href="/web-site-development/the-greenlands?<?= $randomParam ?>">The Greenlands</a>
+                <a class="nav-item nav-link"
+                   href="/web-site-development/pblf?<?= $randomParam ?>">PBLF</a>
             </div>
         </div>
     </nav>
     <div class="container-fluid">
-        <?
+        <?php
         // handles a path like http://koalateasoftware.com/web-site-development/koala-tea-software
         /** @noinspection PhpUndefinedVariableInspection */
 
         $sectionContentsRoot = $chapterFileRoot . $section . "/";
         $sectionContentsFile = $chapterFileRoot . "section.php";
 
+        // ensure that we have a chance of being able to show the section
+        // and prevent a crash in the case where the site is not properly set up
         if (isset($section) && !empty($section)
-            && is_dir($sectionContentsRoot) // ensure that we have a chance of being able to show the section
-            && is_readable($sectionContentsFile // prevent a crash in the case where the site is not properly set up
-            )) {
+            && is_dir($sectionContentsRoot)
+            && is_readable($sectionContentsFile
+            )
+        ) {
             error_log("Drawing the section");
             /** @noinspection PhpIncludeInspection */
             require $sectionContentsFile;
         } else {
-            // Otherwise (section is not asked-for, or is not valid), draw the 'welcome to the software development' version of the page
-            // It could have been that there was a bad section in the request, so make sure the title tag indicates what is actually being drawn
-            $titleTag = "Web Site Development";
-            ?>
-            <h1>Web Site Development</h1>
-            <p class="lead">Koala Tea Software also develops web sites. Use the nav-bar above to see more details for
-                specific web sites.
-            </p>
-            <p>The sections of this chapter provide samples demonstrating the quality control that is applied to these
-                sites. Clearly, these test suites are incomplete.
-            </p>
-            <h2>Dev. Stack / Options</h2>
-            <ul class="list-group">
-                <li class="list-group-item">HTML</li>
-                <li class="list-group-item">JavaScript (raw and / JQuery)</li>
-                <li class="list-group-item">CSS (from SCSS and compressed)</li>
-                <li class="list-group-item">PHP</li>
-                <li class="list-group-item">
-                    Integrations with:
-                    <ul class="list-group">
-                        <li class="list-group-item">Mailchimp</li>
-                        <li class="list-group-item">WordPress (i.e. using WP to provide a simple CMS for The Business to
-                            provide contents)
-                        </li>
-                    </ul>
-                </li>
-                <li class="list-group-item">APIs (the Mailchimp and WP integrations pass data via RESsTful APIs</li>
-            </ul>
-            <h2>Quality Management</h2>
-            <p>Development takes a test driven approach (tempered by pragmatic considerations). Quality Control is
-                effected
-                using the Cucumber / Java test framework detailed elsewhere on this site. The results of the mst recent
-                run
-                of the test are displayed on this site. Here are some of the rest of the tools used:
-            </p>
-            <ul class="list-group">
-                <li class="list-group-item">Chrome Lighthouse - This is a manual, dev-stage activity. We aim for 100%
-                    reports on all the aspects tested (but a pinch of salt, and client consultation tempers this aim).
-                </li>
-                <li class="list-group-item">
-                    <a href="https://www.jetbrains.com/youtrack/" rel="noreferrer"
-                       title="The project management tool designed for agile teams" target="_blank">YouTrack</a> this is
-                    used to record non-urgent fixes / features) vital fixes bypass this.
-                </li>
-                <li class="list-group-item">GitHub</li>
-                <li class="list-group-item">
-                    <a href="https://www.jetbrains.com/phpstorm/" rel="noreferrer"
-                       title="The Lightning-Smart PHP IDE" target="_blank">PHPStorm</a> another IntelliJ product. It
-                    actually lives up to its claims, and eases the producing good quality code.
-                </li>
-                <li class="list-group-item">Cucumber / Java test framework - this both captures and verifies the
-                    implementation of required functionality.
-                </li>
-            </ul>
-            <?php
-            // this ends the 'no need to try to draw the section' branch
+            // the route to the test plan file is via the absolute file path (starting at ~/public_html, as this content
+            // is read through  PHP function
+            /** @noinspection PhpUndefinedVariableInspection - defined in index.php */
+            $contentsFile = $chapterFileRoot . "/contents.md";
+            if (file_exists($contentsFile) && ($txt = file_get_contents($contentsFile))) {
+                /** @noinspection PhpUndefinedVariableInspection - defined in index.php */
+                /** @noinspection SpellCheckingInspection */
+                require_once $siteFileRoot . "parsdown/Parsedown.php";
+                $converter = new Parsedown();
+                echo $converter->text($txt);
+            } else {
+                error_log("Unable to get a test plan from :" . $contentsFile . ":");
+                echo "<p class='text-warning'>Sorry, no contents</p>";
+            }
         }
         ?>
     </div>
 </div>
-

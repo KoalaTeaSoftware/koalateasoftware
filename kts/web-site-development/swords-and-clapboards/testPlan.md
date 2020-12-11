@@ -1,6 +1,9 @@
 # Test Plan
 ## Overview
-The web site [http://swordsandclapboards.com]SwordsAndClapboards.com) is a moderately simple site that lays out the activities of the company Swords And Clapboards Ltd.. In itself, it does not support  any e-commerce (as yet). PHP forms its backbone, and Bootstrap is used to provide responsive capabilities. A little JavaScript provides for client-side interactivity (especially on the Contact page).
+The web site [http://swordsandclapboards.com](SwordsAndClapboards.com) is a moderately simple site that lays out the
+activities of the company Swords And Clapboards Ltd.. In itself, it does not support any e-commerce (as yet). PHP forms
+its backbone, and Bootstrap is used to provide responsive capabilities. A little JavaScript provides for client-side
+interactivity (especially on the Contact page).
 ## Risks
 * The 'friendly URL' feature is handled by a combination of .htaccess, PHP, and the directory structure. If this fails, it is likely to result in partial-paint of pages, or even 404s. It is a low-level risk as this mechanism is in wide use with other sites developed by Koala Tea Software.
 * Some pages are built from data (by PHP) (especially the On Release page). The builder code, or the data could contain errors, in which case, partial-paint of pages is possible.

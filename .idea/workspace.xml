@@ -4,11 +4,16 @@
     <option name="SCOPE_TYPE" value="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kts/web-site-development/the-greenlands/testPlan.md" afterDir="false" />
+    <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="* added the greenlands to the WSD list">
+      <change afterPath="$PROJECT_DIR$/kts/software-quality-assurance/cucumberFrame.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/software-quality-assurance/section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/contents.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kts/web-site-development/pblf/testPlan.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/software-quality-assurance/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/software-quality-assurance/contents.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kts/web-site-development/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/the-greenlands/testPlan.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/swords-and-clapboards/testPlan.md" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/swords-and-clapboards/testPlan.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +51,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../the-greenlands/the-greenlands-test/target/cucumber-html-reports" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kts/web-site-development" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -64,19 +70,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web Site Work\koalateasoftware\kts\web-site-development" />
+      <recent name="D:\Web Site Work\koalateasoftware\kts\web-site-development\swords-and-clapboards" />
+      <recent name="D:\Web Site Work\koalateasoftware\kts\zz-undeployedAssets" />
+      <recent name="D:\Web Site Work\koalateasoftware\kts\parsdown" />
+      <recent name="D:\Web Site Work\koalateasoftware\kts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Web Site Work\koalateasoftware\kts" />
       <recent name="D:\Web Site Work\koalateasoftware" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites\the-greenlands" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites\rose-goldthorp" />
       <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Web Site Work\koalateasoftware\kts\web-site-development\swords-and-clapboards" />
-      <recent name="D:\Web Site Work\koalateasoftware\kts\zz-undeployedAssets" />
-      <recent name="D:\Web Site Work\koalateasoftware\kts\parsdown" />
-      <recent name="D:\Web Site Work\koalateasoftware\kts" />
-      <recent name="D:\Web Site Work\koalateasoftware\kts\undeployedAssets\scss" />
     </key>
   </component>
   <component name="RemoteSynchronizer">
@@ -122,7 +128,15 @@
       <workItem from="1602586104022" duration="1805000" />
       <workItem from="1602772222460" duration="1176000" />
       <workItem from="1603193564894" duration="8000" />
-      <workItem from="1603193770126" duration="1851000" />
+      <workItem from="1603193770126" duration="2007000" />
+      <workItem from="1603444902589" duration="3035000" />
+      <workItem from="1603701585226" duration="14000" />
+      <workItem from="1603779883373" duration="1925000" />
+      <workItem from="1606293381530" duration="1053000" />
+      <workItem from="1606300045436" duration="136000" />
+      <workItem from="1607532198178" duration="3755000" />
+      <workItem from="1607623679269" duration="61000" />
+      <workItem from="1607680869034" duration="2678000" />
     </task>
     <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
       <created>1599473241155</created>
@@ -250,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602782614152</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="* added the greenlands to the WSD list">
+      <created>1603195703419</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603195703419</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers>
       <YouTrack shared="true" url="https://koalatea-software.myjetbrains.com/youtrack" />
     </servers>
@@ -280,85 +301,8 @@
     <MESSAGE value="* rearrange order of items on main menu" />
     <MESSAGE value="* added s/w dev results for rg.com" />
     <MESSAGE value="* added various .htaccess stuff to try to turn off caching&#10;* made web dev the default page, instead of home, and took other stuff off the menu (it is not ready for public consumption)" />
-    <option name="LAST_COMMIT_MESSAGE" value="* added various .htaccess stuff to try to turn off caching&#10;* made web dev the default page, instead of home, and took other stuff off the menu (it is not ready for public consumption)" />
+    <MESSAGE value="* added the greenlands to the WSD list" />
+    <option name="LAST_COMMIT_MESSAGE" value="* added the greenlands to the WSD list" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="558" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599809200977">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="558" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1599809200977" />
-    <state x="580" y="225" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1599809752931">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="580" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860@0.0.1600.860" timestamp="1599809752931" />
-    <state x="0" y="17" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601804696928">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="0" y="17" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1601804696928" />
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602138425634">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="557" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1602138425634" />
-    <state x="65" y="0" width="1505" height="827" key="CommitChangelistDialog2" timestamp="1602782610714">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="65" y="0" width="1505" height="827" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602782610714" />
-    <state x="578" y="342" width="444" height="387" key="ComposerInitDialogKey" timestamp="1599980312765">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="578" y="342" width="444" height="387" key="ComposerInitDialogKey/0.0.1600.860@0.0.1600.860" timestamp="1599980312765" />
-    <state x="92" y="92" width="1416" height="676" maximized="true" key="DiffContextDialog" timestamp="1603194143295">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="92" y="92" width="1416" height="676" maximized="true" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1603194143295" />
-    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog" timestamp="1603195622313">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="92" y="92" width="1416" height="700" maximized="true" key="DirDiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1603195622313" />
-    <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog" timestamp="1601807889166">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="468" y="181" width="664" height="679" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1601807889166" />
-    <state x="234" y="215" key="FileChooserDialogImpl" timestamp="1603193832353">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="234" y="215" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1603193832353" />
-    <state x="634" y="353" key="NewPhpFileDialog" timestamp="1601967991271">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="634" y="353" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1601967991271" />
-    <state x="615" y="132" key="RollbackChangesDialog" timestamp="1599996495769">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="615" y="132" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1599996495769" />
-    <state x="301" y="74" width="1159" height="711" key="SettingsEditor" timestamp="1602181840077">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="301" y="74" width="1159" height="711" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602181840077" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602782617820">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602782617820" />
-    <state x="506" y="163" width="937" height="534" key="find.popup" timestamp="1602084887683">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="506" y="163" width="937" height="534" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1602084887683" />
-    <state x="1027" y="161" width="507" height="540" key="ftp.server.browser" timestamp="1601744255445">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="1027" y="161" width="507" height="540" key="ftp.server.browser/0.0.1600.860@0.0.1600.860" timestamp="1601744255445" />
-    <state x="643" y="202" key="refactoring.ChangeSignatureDialog" timestamp="1599931468170">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="643" y="202" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931468170" />
-    <state x="592" y="378" width="490" height="397" key="scopes" timestamp="1599808862594">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="592" y="378" width="490" height="397" key="scopes/0.0.1600.860@0.0.1600.860" timestamp="1599808862594" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1602181617560">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1602181617560" />
   </component>
 </project>
