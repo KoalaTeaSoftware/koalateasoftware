@@ -1,5 +1,5 @@
 ---
-title: This Website
+title: This Website (KoalaTeaSoftware.com)
 description: A learning exercise with VuePress and WebDriverIO
 author: Mark
 type: article
@@ -27,8 +27,22 @@ For various reasons, I have **Gone Over To The Dark Side** with this site. I hav
 
 ## Current State
 
-* It can produce categorised lists of blogs. This uses a Posts.vue component has a property called "category". 
+* It is deployed to **The Dark Side** (Google Firebase) with a custom URL (not rocket science, but not trivial)
+* It can produce categorised lists of blogs. This uses a "Posts.vue" component has a property called "category". 
   * Currently, I have them placed in different folders, but the component gets a list of _all_ of the files.
   * The FrontMatter type attribute is _the key_
   * You can add attributes to the FrontMatter, this is what I did to add some simple categorisation
-    
+
+## Useful Links:
+
+* https://blog.logrocket.com/how-create-portfolio-blog-using-vuepress-markdown/
+* https://vuepress.vuejs.org/guide/deploy.html#google-firebase
+
+## Useful Facts:
+
+VuePress will generate a static site, so, in its native state, the system has you create pages, build the final site, then deploy that to the web server.
+
+* Static images go in /doc/.vuepress/public
+* You _must_ have a ReadMe.md in the root directory (which is defined when you start up the simulator, or whatever - see below)
+* You have to set up the nav-bar using the /doc/.vuepress/config.js
+* You don't have to use the name 'docs', you specify the source when you `vuepress dev [docs]`, or whatever
