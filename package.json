@@ -1,0 +1,16 @@
+{
+  "name": "kts-press",
+  "version": "0.0.1",
+  "description": "Site for KTS using VuePress",
+  "main": "index.js",
+  "author": "M. Goldthorp",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "test": "test",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}

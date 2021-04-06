@@ -1,280 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="10" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="* added the greenlands to the WSD list">
-      <change afterPath="$PROJECT_DIR$/kts/software-quality-assurance/cucumberFrame.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kts/software-quality-assurance/section.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kts/web-site-development/contents.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kts/web-site-development/pblf/testPlan.md" afterDir="false" />
+    <list default="true" id="4392a637-9533-47f2-a400-06b61746b4ef" name="Default Changelist" comment="Replace it all with the VuePress-based structure">
+      <change beforePath="$PROJECT_DIR$/.ftpquota" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/KoalaTea-Software.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/software-quality-assurance/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/software-quality-assurance/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/swords-and-clapboards/testPlan.md" beforeDir="false" afterPath="$PROJECT_DIR$/kts/web-site-development/swords-and-clapboards/testPlan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/about/contents.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/about/meta.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/home/contents.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/home/meta.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/logo-android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/logo-android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/parsdown/Parsedown.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/software-quality-assurance/contents.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/software-quality-assurance/cucumberFrame.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/software-quality-assurance/section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/stylesEssential.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/stylesEssential.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/stylesRemaining.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/stylesRemaining.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/contents.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/contents.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_-2119303323.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1032183595.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1306613737.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1918782346.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_2117495042.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/overview-failures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/overview-tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_1972145165.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_1_1972145165.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/testPlan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/pblf/testPlan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/rose-goldthorp/contents.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/rose-goldthorp/testPlan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/swords-and-clapboards/testPlan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/web-site-development/the-greenlands/testPlan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/boxArrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/parsedown-1.7.4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/_furniture.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/_webDev.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/stylesEssential.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/stylesRemaining.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
-    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable path="composer" />
-    </execution>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="composer.json" />
-        <option value="HTML File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="NamedScopeManager">
-    <scope name="scss files" pattern="file[KoalaTea-Software]:koalateasoftware.com/scss//*" />
-  </component>
-  <component name="ProjectId" id="1goBXXfd8e37Oc4w6gWWBnpJ1Cl" />
+  <component name="ProjectId" id="1q3bdxo6Iw4kR8QBaG22F7U6Mwt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kts/web-site-development" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/portfolio" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stlint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stlint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stlint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../the-greenlands/the-greenlands-test/target/cucumber-html-reports" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/docs/portfolio/ReadMe.md" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Web Site Work\koalateasoftware\kts\web-site-development" />
-      <recent name="D:\Web Site Work\koalateasoftware\kts\web-site-development\swords-and-clapboards" />
-      <recent name="D:\Web Site Work\koalateasoftware\kts\zz-undeployedAssets" />
-      <recent name="D:\Web Site Work\koalateasoftware\kts\parsdown" />
-      <recent name="D:\Web Site Work\koalateasoftware\kts" />
+      <recent name="D:\Web Site Work\kts\kts-press\docs\portfolio" />
+      <recent name="D:\Web Site Work\kts\kts-press\docs" />
+      <recent name="D:\Web Site Work\kts\kts-press\docs\concepts" />
+      <recent name="D:\Web Site Work\kts\kts-press\docs\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Web Site Work\koalateasoftware\kts" />
-      <recent name="D:\Web Site Work\koalateasoftware" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites\the-greenlands" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites\rose-goldthorp" />
-      <recent name="D:\Web Site Work\koalateasoftware\koalateasoftware.com\web-sites" />
+      <recent name="D:\Web Site Work\kts\kts-press\docs\portfolio" />
+      <recent name="D:\Web Site Work\kts\kts-press\docs\.vuepress\components" />
+      <recent name="D:\Web Site Work\kts\kts-press\docs\.vuepress\public" />
+      <recent name="D:\Web Site Work\kts\kts-press\docs" />
+      <recent name="D:\Web Site Work\kts\kts-press\docs\src" />
     </key>
-  </component>
-  <component name="RemoteSynchronizer">
-    <option name="targetMappings">
-      <list>
-        <TargetMappings>
-          <option name="name" value="Default" />
-        </TargetMappings>
-      </list>
-    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f9767a66-8555-45db-8cae-4bb86030d2c1" name="Default Changelist" comment="" />
-      <created>1598771104382</created>
+      <changelist id="4392a637-9533-47f2-a400-06b61746b4ef" name="Default Changelist" comment="" />
+      <created>1616311311931</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598771104382</updated>
-      <workItem from="1598771105523" duration="8031000" />
-      <workItem from="1598943299775" duration="630000" />
-      <workItem from="1598944008210" duration="5002000" />
-      <workItem from="1599028838451" duration="198000" />
-      <workItem from="1599453095848" duration="24853000" />
-      <workItem from="1599490101791" duration="616000" />
-      <workItem from="1599575967202" duration="4114000" />
-      <workItem from="1599753507917" duration="5826000" />
-      <workItem from="1599806684641" duration="6070000" />
-      <workItem from="1599923260655" duration="10994000" />
-      <workItem from="1599980275759" duration="8153000" />
-      <workItem from="1599993543344" duration="7522000" />
-      <workItem from="1600061987440" duration="3012000" />
-      <workItem from="1600066144270" duration="9000" />
-      <workItem from="1600080173930" duration="777000" />
-      <workItem from="1601819040341" duration="2451000" />
-      <workItem from="1601881963685" duration="43813000" />
-      <workItem from="1602146074803" duration="4939000" />
-      <workItem from="1602157386118" duration="621000" />
-      <workItem from="1602159999885" duration="4870000" />
-      <workItem from="1602312432374" duration="723000" />
-      <workItem from="1602327177488" duration="3546000" />
-      <workItem from="1602571922686" duration="2035000" />
-      <workItem from="1602586104022" duration="1805000" />
-      <workItem from="1602772222460" duration="1176000" />
-      <workItem from="1603193564894" duration="8000" />
-      <workItem from="1603193770126" duration="2007000" />
-      <workItem from="1603444902589" duration="3035000" />
-      <workItem from="1603701585226" duration="14000" />
-      <workItem from="1603779883373" duration="1925000" />
-      <workItem from="1606293381530" duration="1053000" />
-      <workItem from="1606300045436" duration="136000" />
-      <workItem from="1607532198178" duration="3755000" />
-      <workItem from="1607623679269" duration="61000" />
-      <workItem from="1607680869034" duration="2678000" />
+      <updated>1616311311931</updated>
+      <workItem from="1616311313025" duration="5057000" />
+      <workItem from="1616317290346" duration="102000" />
+      <workItem from="1616317405834" duration="4462000" />
+      <workItem from="1616504136372" duration="1112000" />
+      <workItem from="1616505271331" duration="2531000" />
+      <workItem from="1616581937889" duration="18000" />
+      <workItem from="1616842345654" duration="10994000" />
+      <workItem from="1616923436317" duration="11036000" />
+      <workItem from="1617007515661" duration="26000" />
+      <workItem from="1617439814176" duration="3776000" />
+      <workItem from="1617450825026" duration="7000" />
+      <workItem from="1617626107935" duration="507000" />
+      <workItem from="1617629490194" duration="7000" />
+      <workItem from="1617642410802" duration="2715000" />
+      <workItem from="1617704310934" duration="76000" />
+      <workItem from="1617704826447" duration="443000" />
+      <workItem from="1617705542866" duration="446000" />
+      <workItem from="1617706002791" duration="103000" />
+      <workItem from="1617706226231" duration="304000" />
     </task>
-    <task id="LOCAL-00001" summary="Clean chapter / section handling&#10;Chrome ignores the caching directives">
-      <created>1599473241155</created>
+    <task id="LOCAL-00001" summary="It will build pages and include images">
+      <created>1616317598413</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1599473241155</updated>
+      <updated>1616317598413</updated>
     </task>
-    <task id="LOCAL-00002" summary="Working chapter / section framework">
-      <created>1599488095318</created>
+    <task id="LOCAL-00002" summary="Add a project-wide readme">
+      <created>1616318260910</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1599488095318</updated>
+      <updated>1616318260910</updated>
     </task>
-    <task id="LOCAL-00003" summary="cleanly shows possible chapters in navbar and verifies chapter requests">
-      <created>1599757063851</created>
+    <task id="LOCAL-00003" summary="a slight change to the home page">
+      <created>1616408197957</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1599757063851</updated>
+      <updated>1616408197957</updated>
     </task>
-    <task id="LOCAL-00004" summary="skeletons for the projects page">
-      <created>1599760033811</created>
+    <task id="LOCAL-00004" summary="added styling and links for the home page">
+      <created>1616510616211</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1599760033811</updated>
+      <updated>1616510616211</updated>
     </task>
-    <task id="LOCAL-00005" summary="working scss structure">
-      <created>1599812745290</created>
+    <task id="LOCAL-00005" summary="added ability to have different lists of posts">
+      <created>1616850948271</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1599812745290</updated>
+      <updated>1616850948271</updated>
     </task>
-    <task id="LOCAL-00006" summary="now automatically builds a projects menu">
-      <created>1599933126342</created>
+    <task id="LOCAL-00006" summary="added my CV, some style tweaks, added favicons">
+      <created>1616938828406</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1599933126342</updated>
+      <updated>1616938828406</updated>
     </task>
-    <task id="LOCAL-00007" summary="KTS-1 Clean up structure of web site &#10;This now appears to work as expected, without compromising the other sites">
-      <created>1601809402750</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1601809402750</updated>
-    </task>
-    <task id="LOCAL-00008" summary="KTS-1 Clean up structure of web site &#10;Resumed the removal of the log file on each entry to index.php">
-      <created>1601809567847</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1601809567847</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Fix faults found by the automated test suite">
-      <created>1601822836436</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1601822836436</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Significantly reduce code inspection complaints">
-      <created>1601823295510</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1601823295510</updated>
-    </task>
-    <task id="LOCAL-00011" summary="* renamed the undeployed assets so that tey show at the bootom of the list&#10;* Added ability to process markdown&#10;* Added web site development chapter&#10;* added data for the WSD &gt; KTS web site">
-      <created>1601994048832</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1601994048832</updated>
-    </task>
-    <task id="LOCAL-00012" summary="* fix bugs with page titles when URLS re not good,&#10;* and with the HTML syntax of the WSD page, under some circumstances&#10;* and with locating test result sets (so that they can be displayed)">
-      <created>1602138893313</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1602138893313</updated>
-    </task>
-    <task id="LOCAL-00013" summary="* a few tweaks to layouts and colours - mostly to do with tab navs">
-      <created>1602142357985</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1602142357985</updated>
-    </task>
-    <task id="LOCAL-00014" summary="* minor tweak to look of the tabbed nav">
-      <created>1602144784869</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1602144784869</updated>
-    </task>
-    <task id="LOCAL-00015" summary="* disengage the no-cache from the .htaccess&#10;* some tweaks inspired by Chrome Lighthouse">
-      <created>1602148226800</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1602148226800</updated>
-    </task>
-    <task id="LOCAL-00016" summary="* added swords-and-clapboards to the web-development chapter">
-      <created>1602164438013</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1602164438013</updated>
-    </task>
-    <task id="LOCAL-00017" summary="* added s/w dev results for rg.com">
-      <created>1602573924453</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1602573924453</updated>
-    </task>
-    <task id="LOCAL-00018" summary="* added various .htaccess stuff to try to turn off caching&#10;* made web dev the default page, instead of home, and took other stuff off the menu (it is not ready for public consumption)">
-      <created>1602782614152</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1602782614152</updated>
-    </task>
-    <task id="LOCAL-00019" summary="* added the greenlands to the WSD list">
-      <created>1603195703419</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1603195703419</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
-    <servers>
-      <YouTrack shared="true" url="https://koalatea-software.myjetbrains.com/youtrack" />
-    </servers>
+    <option name="localTasksCounter" value="7" />
+    <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -282,27 +206,15 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Clean chapter / section handling&#10;Chrome ignores the caching directives" />
-    <MESSAGE value="Working chapter / section framework" />
-    <MESSAGE value="cleanly shows possible chapters in navbar and verifies chapter requests" />
-    <MESSAGE value="skeletons for the projects page" />
-    <MESSAGE value="working scss structure" />
-    <MESSAGE value="now automatically builds a projects menu" />
-    <MESSAGE value="KTS-1 Clean up structure of web site &#10;This now appears to work as expected, without compromising the other sites" />
-    <MESSAGE value="KTS-1 Clean up structure of web site &#10;Resumed the removal of the log file on each entry to index.php" />
-    <MESSAGE value="Fix faults found by the automated test suite" />
-    <MESSAGE value="Significantly reduce code inspection complaints" />
-    <MESSAGE value="* renamed the undeployed assets so that tey show at the bootom of the list&#10;* Added ability to process markdown&#10;* Added web site development chapter&#10;* added data for the WSD &gt; KTS web site" />
-    <MESSAGE value="* fix bugs with page titles when URLS re not good,&#10;* and with the HTML syntax of the WSD page, under some circumstances&#10;* and with locating test result sets (so that they can be displayed)" />
-    <MESSAGE value="* a few tweaks to layouts and colours - mostly to do with tab navs" />
-    <MESSAGE value="* minor tweak to look of the tabbed nav" />
-    <MESSAGE value="* disengage the no-cache from the .htaccess&#10;* some tweaks inspired by Chrome Lighthouse" />
-    <MESSAGE value="* added swords-and-clapboards to the web-development chapter" />
-    <MESSAGE value="* rearrange order of items on main menu" />
-    <MESSAGE value="* added s/w dev results for rg.com" />
-    <MESSAGE value="* added various .htaccess stuff to try to turn off caching&#10;* made web dev the default page, instead of home, and took other stuff off the menu (it is not ready for public consumption)" />
-    <MESSAGE value="* added the greenlands to the WSD list" />
-    <option name="LAST_COMMIT_MESSAGE" value="* added the greenlands to the WSD list" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/kts-press" />
+    </ignored-roots>
+    <MESSAGE value="It will build pages and include images" />
+    <MESSAGE value="Add a project-wide readme" />
+    <MESSAGE value="a slight change to the home page" />
+    <MESSAGE value="added styling and links for the home page" />
+    <MESSAGE value="added ability to have different lists of posts" />
+    <MESSAGE value="added my CV, some style tweaks, added favicons" />
+    <option name="LAST_COMMIT_MESSAGE" value="added my CV, some style tweaks, added favicons" />
   </component>
 </project>

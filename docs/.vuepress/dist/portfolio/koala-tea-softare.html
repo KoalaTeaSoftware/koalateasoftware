@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>This Website | Koala Tea Software</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="A learning exercise with VuePress and WebDriverIO">
+    
+    <link rel="preload" href="/assets/css/0.styles.c72f90a8.css" as="style"><link rel="preload" href="/assets/js/app.e6ed30c5.js" as="script"><link rel="preload" href="/assets/js/2.1aa46b3b.js" as="script"><link rel="preload" href="/assets/js/13.9a6583ec.js" as="script"><link rel="prefetch" href="/assets/js/10.9636a300.js"><link rel="prefetch" href="/assets/js/11.53750cc7.js"><link rel="prefetch" href="/assets/js/12.d5510765.js"><link rel="prefetch" href="/assets/js/14.b794fded.js"><link rel="prefetch" href="/assets/js/15.ddc5a6b4.js"><link rel="prefetch" href="/assets/js/16.1f29a2f3.js"><link rel="prefetch" href="/assets/js/3.b360ebc7.js"><link rel="prefetch" href="/assets/js/4.b2bfc9c1.js"><link rel="prefetch" href="/assets/js/5.c4cc2b4a.js"><link rel="prefetch" href="/assets/js/6.d47b7d56.js"><link rel="prefetch" href="/assets/js/7.4633576d.js"><link rel="prefetch" href="/assets/js/8.e50cb9ee.js"><link rel="prefetch" href="/assets/js/9.5af31490.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.c72f90a8.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Koala Tea Software</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/concepts/" class="nav-link">
+  Concepts
+</a></div><div class="nav-item"><a href="/tools/" class="nav-link">
+  Tools
+</a></div><div class="nav-item"><a href="/portfolio/" class="nav-link router-link-active">
+  WIDOMH
+</a></div><div class="nav-item"><a href="/about.html" class="nav-link">
+  About
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/concepts/" class="nav-link">
+  Concepts
+</a></div><div class="nav-item"><a href="/tools/" class="nav-link">
+  Tools
+</a></div><div class="nav-item"><a href="/portfolio/" class="nav-link router-link-active">
+  WIDOMH
+</a></div><div class="nav-item"><a href="/about.html" class="nav-link">
+  About
+</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="frontmatter-title"><a href="#frontmatter-title" class="header-anchor">#</a> This Website</h1> <p>This website is going to do a few things for me. I have already tried basing a website on WordPress, and PHP, using WP as simply a CMS and found that the result offers 2 big obstacles to customer satisfaction:</p> <ol><li>You end up spending many hours trying to get something approaching the look that you want</li> <li>You get an embarrassingly slow website. I suspect bloat, the legacy-software-problem, and the fact that my hosting supplier want me to pay for 'better' hosting.</li></ol> <p>I could get good at selecting, manipulating &amp; writing WP customisation and plugins, I suppose, but to what end? I would still probably have to pay for faster hosting, and I would not be able to compete selling these skills.</p> <p>I discovered Vue.JS recently, and, even more recently, VuePress, and I really like them. They hide away a lot of the clunks that I hve found that I need to wade through using PHP, and they will serve pages rapidly.</p> <p>For various reasons, I have <strong>Gone Over To The Dark Side</strong> with this site. I have decided to host the site on Google's Firebase. You get very simple server-side stuff (although they are trying to sell it as 'no server'), so that is a big plus. For the time being, you get speed.</p> <h2 id="road-map-to-do"><a href="#road-map-to-do" class="header-anchor">#</a> Road Map (To Do)</h2> <ul><li>[ ] make the category filter use some kind of <em>contains</em>, rather than <em>===</em></li> <li>[ ] use Firebase storage as the location of the blog articles. Currently, it is necessary to build and deploy when an article is written. It will mean
+<ul><li>Writing a Vue object (the appropriate properties) to capture an article</li> <li>Make the article listing component look into the Firebase storage, rather then the deployed list of files.</li> <li>Think about how this affects (probably breaks) the search in the navbar</li></ul></li></ul> <h2 id="current-state"><a href="#current-state" class="header-anchor">#</a> Current State</h2> <ul><li>It can produce categorised lists of blogs. This uses a Posts.vue component has a property called &quot;category&quot;.
+<ul><li>Currently, I have them placed in different folders, but the component gets a list of <em>all</em> of the files.</li> <li>The FrontMatter type attribute is <em>the key</em></li> <li>You can add attributes to the FrontMatter, this is what I did to add some simple categorisation</li></ul></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.e6ed30c5.js" defer></script><script src="/assets/js/2.1aa46b3b.js" defer></script><script src="/assets/js/13.9a6583ec.js" defer></script>
+  </body>
+</html>

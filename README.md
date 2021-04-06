@@ -1,19 +1,22 @@
-# Koala Tea Software Site
-## Friendly URLs
-* Index.php will check to see that there are a suitable
-  * Chapter
-  * Section
-  * Subsection
-* It determines 'suitability' in the following way(s)
-  * Chapter
-    * Must have a directory with a matching name (lower case)
-    * Must contain a file called contents.php
-  * Section
-    * There has to be a directory (with a name matching the request) within the requested chapter
-    * Not (currently) demanding there be a file called contents.php in the section directory
-    
-## Auto Creation of the main menu
-* This depends on the directory structure, too
-* A main-nav item will be created for each of the directories (under the root) that
-    * contain a contents.php
-    * are not called 'home', or named with an initial '_' 
+# KTS Portfolio Based on VuePress
+
+## Current 
+
+## ToDo:
+
+- [ ] see about writing a few interesting pages
+- [ ] See about deploying it (either to Firebase, where the domain name currently points, or to BlueHost)
+
+## Useful Links:
+
+* https://blog.logrocket.com/how-create-portfolio-blog-using-vuepress-markdown/
+* https://vuepress.vuejs.org/guide/deploy.html#google-firebase
+
+## Useful Facts:
+
+VuePress will generate a static site.
+
+* Static images go in /doc/.vuepress/public
+* You _must_ have a ReadMe.md in the directory which is defined as the root (when you start up the simulator, or whatever)
+* You have to set up the nav-bar using the /doc/.vuepress/config.js
+* You don't have to use the docs directory, you specify the source when you `vuepress dev [docs]`, or whatever
