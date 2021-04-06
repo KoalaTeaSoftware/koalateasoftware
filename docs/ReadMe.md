@@ -1,7 +1,7 @@
 ---
 pageClass: homepage
 home: true
-heroImage: /images/banner.gif
+heroImage: /images/pug.gif
 heroText: Koala Tea Software
 tagline: What you always wanted to know about software quality, but were too shy to ask
 footer: Developed using VuePress ♥️

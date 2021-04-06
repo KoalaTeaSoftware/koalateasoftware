@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4392a637-9533-47f2-a400-06b61746b4ef" name="Default Changelist" comment="">
+    <list default="true" id="4392a637-9533-47f2-a400-06b61746b4ef" name="Default Changelist" comment="add some more info to the global readme">
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/images/pug.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/about.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/css/0.styles.c72f90a8.css" beforeDir="false" />
@@ -36,8 +36,14 @@
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/portfolio/the-greenlands.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/tools/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/tools/vuepress.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/portfolio/koala-tea-softare.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/portfolio/koala-tea-software.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/styles/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/styles/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/logo-android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/logo-android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/logo-android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/logo-android-chrome-512x512.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +75,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/.vuepress/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stlint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,23 +86,24 @@
     <property name="node.js.selected.package.stlint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/docs/portfolio/ReadMe.md" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web Site Work\kts\koalateasoftware\docs\.vuepress\public\images" />
       <recent name="D:\Web Site Work\kts\kts-press\docs\portfolio" />
       <recent name="D:\Web Site Work\kts\kts-press\docs" />
       <recent name="D:\Web Site Work\kts\kts-press\docs\concepts" />
       <recent name="D:\Web Site Work\kts\kts-press\docs\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web Site Work\kts\koalateasoftware\docs\.vuepress\public" />
       <recent name="D:\Web Site Work\kts\kts-press\docs\portfolio" />
       <recent name="D:\Web Site Work\kts\kts-press\docs\.vuepress\components" />
       <recent name="D:\Web Site Work\kts\kts-press\docs\.vuepress\public" />
       <recent name="D:\Web Site Work\kts\kts-press\docs" />
-      <recent name="D:\Web Site Work\kts\kts-press\docs\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -127,7 +134,8 @@
       <workItem from="1617706002791" duration="103000" />
       <workItem from="1617706226231" duration="5056000" />
       <workItem from="1617711374763" duration="144000" />
-      <workItem from="1617711532889" duration="132000" />
+      <workItem from="1617711532889" duration="1102000" />
+      <workItem from="1617714402495" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="It will build pages and include images">
       <created>1616317598413</created>
@@ -192,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617707920437</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="a tweak, or two">
+      <created>1617711959187</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617711959187</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +227,7 @@
     <MESSAGE value="added my CV, some style tweaks, added favicons" />
     <MESSAGE value="Replace it all with the VuePress-based structure" />
     <MESSAGE value="add some more info to the global readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some more info to the global readme" />
+    <MESSAGE value="a tweak, or two" />
+    <option name="LAST_COMMIT_MESSAGE" value="a tweak, or two" />
   </component>
 </project>
