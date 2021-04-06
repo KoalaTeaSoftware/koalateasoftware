@@ -1,71 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4392a637-9533-47f2-a400-06b61746b4ef" name="Default Changelist" comment="Replace it all with the VuePress-based structure">
-      <change beforePath="$PROJECT_DIR$/.ftpquota" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/KoalaTea-Software.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/about/contents.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/about/meta.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/home/contents.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/home/meta.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/logo-android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/logo-android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/parsdown/Parsedown.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/software-quality-assurance/contents.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/software-quality-assurance/cucumberFrame.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/software-quality-assurance/section.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/stylesEssential.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/stylesEssential.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/stylesRemaining.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/stylesRemaining.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/contents.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/contents.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_-2119303323.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1032183595.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1306613737.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_1918782346.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/embeddings/embedding_2117495042.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/overview-failures.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/overview-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_1972145165.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/cucumber-html-reports/report-feature_1_1972145165.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/koala-tea-software/testPlan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/pblf/testPlan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/rose-goldthorp/contents.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/rose-goldthorp/testPlan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/section.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/swords-and-clapboards/testPlan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/web-site-development/the-greenlands/testPlan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/boxArrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/parsedown-1.7.4.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/_furniture.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/_webDev.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/stylesEssential.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kts/zz-undeployedAssets/scss/stylesRemaining.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" />
+    <list default="true" id="4392a637-9533-47f2-a400-06b61746b4ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +90,7 @@
       <workItem from="1617704826447" duration="443000" />
       <workItem from="1617705542866" duration="446000" />
       <workItem from="1617706002791" duration="103000" />
-      <workItem from="1617706226231" duration="304000" />
+      <workItem from="1617706226231" duration="1445000" />
     </task>
     <task id="LOCAL-00001" summary="It will build pages and include images">
       <created>1616317598413</created>
@@ -197,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616938828406</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Replace it all with the VuePress-based structure">
+      <created>1617706649897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617706649897</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +159,7 @@
     <MESSAGE value="added styling and links for the home page" />
     <MESSAGE value="added ability to have different lists of posts" />
     <MESSAGE value="added my CV, some style tweaks, added favicons" />
-    <option name="LAST_COMMIT_MESSAGE" value="added my CV, some style tweaks, added favicons" />
+    <MESSAGE value="Replace it all with the VuePress-based structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace it all with the VuePress-based structure" />
   </component>
 </project>
