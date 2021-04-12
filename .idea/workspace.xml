@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4392a637-9533-47f2-a400-06b61746b4ef" name="Default Changelist" comment="add some more info to the global readme">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/images/pug.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/concepts/istqb.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/about.html" beforeDir="false" />
@@ -36,14 +36,6 @@
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/portfolio/the-greenlands.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/tools/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/tools/vuepress.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/styles/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/styles/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/logo-android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/logo-android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/logo-android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/logo-android-chrome-512x512.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/.vuepress/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/concepts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stlint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -92,11 +84,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web Site Work\kts\koalateasoftware\docs\concepts" />
       <recent name="D:\Web Site Work\kts\koalateasoftware\docs\.vuepress\public\images" />
       <recent name="D:\Web Site Work\kts\kts-press\docs\portfolio" />
       <recent name="D:\Web Site Work\kts\kts-press\docs" />
       <recent name="D:\Web Site Work\kts\kts-press\docs\concepts" />
-      <recent name="D:\Web Site Work\kts\kts-press\docs\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Web Site Work\kts\koalateasoftware\docs\.vuepress\public" />
@@ -135,7 +127,8 @@
       <workItem from="1617706226231" duration="5056000" />
       <workItem from="1617711374763" duration="144000" />
       <workItem from="1617711532889" duration="1102000" />
-      <workItem from="1617714402495" duration="1309000" />
+      <workItem from="1617714402495" duration="2112000" />
+      <workItem from="1618217616013" duration="8095000" />
     </task>
     <task id="LOCAL-00001" summary="It will build pages and include images">
       <created>1616317598413</created>
@@ -207,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617711959187</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="moved the favicons and changed the hero image">
+      <created>1617716003692</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617716003692</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +228,7 @@
     <MESSAGE value="Replace it all with the VuePress-based structure" />
     <MESSAGE value="add some more info to the global readme" />
     <MESSAGE value="a tweak, or two" />
-    <option name="LAST_COMMIT_MESSAGE" value="a tweak, or two" />
+    <MESSAGE value="moved the favicons and changed the hero image" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved the favicons and changed the hero image" />
   </component>
 </project>
